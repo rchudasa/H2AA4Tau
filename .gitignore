@@ -2,3 +2,5 @@
 */figures*
 *.png
 */*.png
+*.root
+*/*.root

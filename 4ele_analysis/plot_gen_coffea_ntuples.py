@@ -12,7 +12,7 @@ from coffea.dataset_tools import (
     max_chunks,
     preprocess,
 )
-
+import matplotlib.pyplot as plt
 #from distributed import Client
 
 #client = Client()
@@ -22,39 +22,26 @@ class MyProcessor(processor.ProcessorABC):
         pass
 
     def process(self, events):
-        print("Events type:", type(events))
+        #print("Events type:", type(events))
         dataset_axis = hist.axis.StrCategory(
             [], growth=True, name="dataset", label="Primary dataset"
         )
-        mass_axis = hist.axis.Regular(
-            300, 0, 300, name="mass", label=r"$m_{\mu\mu}$ [GeV]"
-        )
-        pt_axis = hist.axis.Regular(300, 0, 300, name="pt", label=r"$p_{T,\mu}$ [GeV]")
-        
-        dataset = events.metadata['dataset']
-        print("_______________________",type(dataset))
-        print(events.jetPt)
-        print(ak.num(events,axis=0))
-        
-        h_pt = hda.hist.Hist(
-            dataset_axis, pt_axis
-        )
 
-        h_pt.fill(
-            dataset=dataset,
-            pt=ak.flatten(events.jetPt),
-        )
-        print("Total events:", ak.num(events,axis=0)) 
-        #  q2_hist = (
-        # hda.Hist.new.Reg(100, 0, 200, name="ptj", label="Jet $p_{T}$ [GeV]")
-        # .Double()
-        # .fill(ak.flatten(events.jetPt))
-        # )
+        dr_axis = hist.axis.Regular(50, 0, 0.1, name="dR_tau1_tau2", label="dR(ele1,ele2)")   
+        dataset = events.metadata['dataset']
+        #print("_______________________",type(dataset))
+
+        h_tau1_tau2_dr = hda.hist.Hist(dataset_axis, dr_axis)
+
+        h_tau1_tau2_dr.fill(dataset=dataset,dR_tau1_tau2=ak.flatten(events.dR_Ele1_Ele2))
+        h_tau1_tau2_dr.fill(dataset=dataset,dR_tau1_tau2=ak.flatten(events.dR_Ele3_Ele4))
+
+        pt_axis = hist.axis.Regular(50, 0, 100, name="pt", label="pt") 
+ 
         
         return {
             "entries": ak.num(events, axis=0),
-            "jetPt": h_pt,
-            
+            "tau1_tau2_dr": h_tau1_tau2_dr           
         }
 
     def postprocess(self, accumulator):
@@ -62,43 +49,27 @@ class MyProcessor(processor.ProcessorABC):
 
 import os
 
-def makeFileSet(path):
-    files = os.listdir(path)
-    root_files = [path+f+":fevt/RHTree" for f in files if f.endswith(".root")]
-    root_set = set(root_files)
-    return root_set
-
-
-
-path_3p7 = "/eos/cms/store/group/phys_diffraction/rchudasa/MCGeneration/withTrigger/HToAATo4Tau_M_3p7_pythia8_2018UL_AOD/3p7_RHEvent-Trigger_ntuples_v2/240813_103752/0000/"
-root_3p7_set = makeFileSet(path_3p7)
-path_8 = "/eos/cms/store/group/phys_diffraction/rchudasa/MCGeneration/withTrigger/HToAATo4Tau_M_8_pythia8_2018UL_AOD/8_RHEvent-Trigger_ntuples_v2/240814_091111/0000/"
-root_8_set = makeFileSet(path_8)
-
-'''
 fileset = {
-    "ZZto4mu": {
-        "files": {
-            "output_1.root": "fevt/RHTree",
-        }
-    },
-    "SMHiggsToZZTo4L": {
-        "files": {
-             "output_2_M8.root": "fevt/RHTree",
-        }
-    },
-}
-'''
-
-fileset = {
-    "Mass3p7": {
-        "files": root_3p7_set
-    },
-    "Mass8": {
-        "files": root_8_set
-    },
+    #  "0p01": {"files": {"GenInfo_only_H2AA4Ele_0p01GeV.root":"fevt/RHTree"}},
+    # # "0p03": {"files": {"GenInfo_only_H2AA4Ele_0p03GeV.root":"fevt/RHTree"}},
+    #  "0p05": {"files": {"GenInfo_only_H2AA4Ele_0p05GeV.root":"fevt/RHTree"}},
+    #  "0p1": {"files": {"GenInfo_only_H2AA4Ele_0p1GeV.root":"fevt/RHTree"}},
+    # #"0p12": {"files": {"GenInfo_only_H2AA4Ele_0p12GeV.root":"fevt/RHTree"}},
+    # "0p15": {"files": {"GenInfo_only_H2AA4Ele_0p15GeV.root":"fevt/RHTree"}},
+    # #"0p17": {"files": {"GenInfo_only_H2AA4Ele_0p17GeV.root":"fevt/RHTree"}},
+    # "0p2": {"files": {"GenInfo_only_H2AA4Ele_0p2GeV.root":"fevt/RHTree"}},
+    # "0p25": {"files": {"GenInfo_only_H2AA4Ele_0p25GeV.root":"fevt/RHTree"}},
+    "0p3": {"files": {"GenInfo_only_H2AA4Ele_0p3GeV.root":"fevt/RHTree"}},
+    "0p35": {"files": {"GenInfo_only_H2AA4Ele_0p35GeV.root":"fevt/RHTree"}},
+    "0p4": {"files": {"GenInfo_only_H2AA4Ele_0p4GeV.root":"fevt/RHTree"}},
+    #"0p45": {"files": {"GenInfo_only_H2AA4Ele_0p45GeV.root":"fevt/RHTree"}},
+    "0p6": {"files": {"GenInfo_only_H2AA4Ele_0p6GeV.root":"fevt/RHTree"}},
+    "0p8": {"files": {"GenInfo_only_H2AA4Ele_0p8GeV.root":"fevt/RHTree"}},
+    "1p0": {"files": {"GenInfo_only_H2AA4Ele_1GeV.root":"fevt/RHTree"}},
+    "1p2": {"files": {"GenInfo_only_H2AA4Ele_1p2GeV.root":"fevt/RHTree"}},
 }
 
+#print(len(fileset))
 
 
 to_compute = apply_to_fileset(
@@ -113,25 +84,39 @@ import time
 tstart = time.time()
 
 (out,) = dask.compute(to_compute)
-print(out)
+#print(out['0p01'])
 
 elapsed = time.time() - tstart
 print(elapsed)
 
 scaled = {}
-for (name1, h1), (name2, h2) in zip(
-    #out["ZZto4mu"].items(), out["SMHiggsToZZTo4L"].items()
-    out["Mass3p7"].items(), out["Mass8"].items()
-):
-    if isinstance(h1, hist.Hist) and isinstance(h2, hist.Hist):
-        scaled[name1] = h1.copy() + h2.copy()
+dynamic_variables = {}
+count = 0
+for key,value in out.items():
+    count +=1
+    print(f"h{count}")
+    #print(key, value)
+    #print("____________________________________________________")
+    if type(value) == dict:
+        for key2, value2 in value.items():
+            #print("Keys2: ", key2,"   value2", value2)
+            if type(value2) == hist.Hist:
+                #name = f"h{count}"
+                #dynamic_variables[name] = value2
+                #f"h{count}" = value2
+                if count == 1:
+                    scaled[key2] = value2.copy()
+                else:
+                    scaled[key2]+=value2.copy()
 
 
+print(scaled)
 import matplotlib.pyplot as plt
 plt.ion()
 fig, ax = plt.subplots()
-scaled['jetPt'].plot1d(ax=ax, overlay="dataset")
-ax.set_yscale("log")
+scaled['tau1_tau2_dr'].plot1d(ax=ax, overlay="dataset")
+ax.legend()
+#ax.set_yscale("log")
 ax.set_ylim(1, None)
-plt.show()
+plt.savefig('dr_0p3_1p2.png')
 
