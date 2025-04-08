@@ -1,0 +1,714 @@
+Trigger_Name,Actual_lumi,Effective_lumi,First_run,Last_run,datasets
+HLT_ZeroBias_v,27.2,2.40E-05,365753,370790,"ExpressPhysics, ZeroBias"
+HLT_ZeroBias_LastCollisionInTrain_v,27.2,0.00022,365753,370790,ZeroBias
+HLT_ZeroBias_IsolatedBunches_v,27.2,0.019,365753,370790,"Commissioning, ExpressPhysics, ZeroBias"
+HLT_ZeroBias_HighExpress_v,0,0,365753,366035,ExpressPhysics
+HLT_ZeroBias_FirstCollisionInTrain_v,27.2,0.048,365753,370790,ZeroBias
+HLT_ZeroBias_FirstCollisionAfterAbortGap_v,27.2,0.024,365753,370790,"ExpressPhysics, ZeroBias"
+HLT_ZeroBias_FirstBXAfterTrain_v,27.2,0.00023,365753,370790,ZeroBias
+HLT_ZeroBias_Beamspot_v,27.2,2.40E-05,365753,370790,ExpressAlignment
+HLT_ZeroBias_Alignment_v,27.2,1.20E-05,365753,370790,ZeroBias
+HLT_VBF_DoubleMediumDeepTauPFTauHPS20_eta2p1_v,27.2,27.2,366403,370790,"ParkingVBF[0-7], Tau"
+HLT_VBF_DiPFJet95_45_Mjj600_Detajj2p5_Mu3_TrkIsoVVL_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet95_45_Mjj600_Detajj2p5_Mu3_TrkIsoVVL_TriplePFJet_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet90_40_Mjj600_Detajj2p5_Mu3_TrkIsoVVL_v,21,21,367661,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet90_40_Mjj600_Detajj2p5_Mu3_TrkIsoVVL_TriplePFJet_v,21,21,367661,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet80_45_Mjj500_Detajj2p5_PFMET85_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet80_45_Mjj500_Detajj2p5_PFMET85_TriplePFJet_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet75_45_Mjj600_Detajj2p5_DiPFJet60_JetMatchingSixJet_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet75_45_Mjj600_Detajj2p5_DiPFJet60_JetMatchingQuadJet_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet75_45_Mjj600_Detajj2p5_DiPFJet60_JetMatchingFiveJet_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet75_40_Mjj500_Detajj2p5_PFMET85_v,21,21,367661,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet75_40_Mjj500_Detajj2p5_PFMET85_TriplePFJet_v,21,21,367661,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet70_40_Mjj600_Detajj2p5_DiPFJet60_JetMatchingSixJet_v,21,21,367661,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet70_40_Mjj600_Detajj2p5_DiPFJet60_JetMatchingQuadJet_v,21,21,367661,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet70_40_Mjj600_Detajj2p5_DiPFJet60_JetMatchingFiveJet_v,21,21,367661,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet50_Mjj500_Detajj2p5_Photon22_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet50_Mjj500_Detajj2p5_Ele22_eta2p1_WPTight_Gsf_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet45_Mjj500_Detajj2p5_Photon17_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet45_Mjj500_Detajj2p5_Photon12_v,11.5,11.5,367661,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet45_Mjj500_Detajj2p5_MediumDeepTauPFTauHPS45_L2NN_eta2p1_v,21,21,367661,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet45_Mjj500_Detajj2p5_Ele17_eta2p1_WPTight_Gsf_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet45_Mjj500_Detajj2p5_Ele12_eta2p1_WPTight_Gsf_v,11.5,11.5,367661,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet125_45_Mjj720_Detajj3p0_v,1.7,1.7,367661,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet125_45_Mjj720_Detajj3p0_TriplePFJet_v,1.7,1.7,367661,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet125_45_Mjj1000_Detajj3p5_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet125_45_Mjj1000_Detajj3p5_TriplePFJet_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet110_40_Mjj1000_Detajj3p5_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet110_40_Mjj1000_Detajj3p5_TriplePFJet_v,9.5,9.5,369869,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet105_40_Mjj1000_Detajj3p5_v,20.8,20.8,367661,370790,ParkingVBF[0-7]
+HLT_VBF_DiPFJet105_40_Mjj1000_Detajj3p5_TriplePFJet_v,20.8,20.8,367661,370790,ParkingVBF[0-7]
+HLT_UncorrectedJetE70_NoBPTX3BX_v,27.2,27.2,366403,370790,NoBPTX
+HLT_UncorrectedJetE60_NoBPTX3BX_v,27.2,27.2,366403,370790,NoBPTX
+HLT_UncorrectedJetE30_NoBPTX3BX_v,27.2,1.4,366403,370790,NoBPTX
+HLT_UncorrectedJetE30_NoBPTX_v,27.2,0.27,366403,370790,NoBPTX
+HLT_TrkMu12_DoubleTrkMu5NoFiltersNoVtx_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_TripleMu_5_3_3_Mass3p8_DZ_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_TripleMu_5_3_3_Mass3p8_DCA_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_TripleMu_12_10_5_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_TripleMu_10_5_5_DZ_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_TripleJet110_35_35_Mjj650_PFMET130_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_TripleJet110_35_35_Mjj650_PFMET120_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_TripleJet110_35_35_Mjj650_PFMET110_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_TrimuonOpen_5_3p5_2_Upsilon_Muon_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Trimuon5_3p5_2_Upsilon_Muon_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Tau3Mu_Mu7_Mu1_TkMu1_Tau15_v,27.2,2.7,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Tau3Mu_Mu7_Mu1_TkMu1_Tau15_Charge1_v,27.2,2.7,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Tau3Mu_Mu7_Mu1_TkMu1_IsoTau15_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Tau3Mu_Mu7_Mu1_TkMu1_IsoTau15_Charge1_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_SingleJet30_Mu12_SinglePFJet40_v,0,0,366403,367619,"JetMET[0,1]"
+HLT_SingleEle8_v,27.2,0.27,366403,370790,ParkingDoubleElectronLowMass
+HLT_SingleEle8_SingleEGL1_v,27.2,0.02,366403,370790,ParkingDoubleElectronLowMass
+HLT_Random_v,27.2,0.67,365753,370790,"ExpressPhysics, ZeroBias"
+HLT_QuadPFJet70_50_45_35_PNet2BTagMean0p65_v,6.2,6.1,366403,367619,"JetMET[0,1]"
+HLT_QuadPFJet70_50_40_35_PNet2BTagMean0p65_v,6.2,6.1,366403,367619,"JetMET[0,1]"
+HLT_QuadPFJet70_50_40_30_v,6.2,0.012,366403,367619,"JetMET[0,1]"
+HLT_QuadPFJet111_90_80_30_v,21,0.082,367661,370790,"JetMET[0,1]"
+HLT_QuadPFJet111_90_80_30_PNet1CvsAll0p6_VBF3Tight_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_QuadPFJet111_90_80_15_v,27.2,0.053,366403,370790,"JetMET[0,1]"
+HLT_QuadPFJet111_90_80_15_PFBTagDeepJet_1p3_VBF2_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_QuadPFJet111_90_80_15_DoublePFBTagDeepJet_1p3_7p7_VBF1_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_QuadPFJet105_88_76_15_v,27.2,0.053,366403,370790,"JetMET[0,1]"
+HLT_QuadPFJet105_88_76_15_PFBTagDeepJet_1p3_VBF2_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_QuadPFJet105_88_76_15_DoublePFBTagDeepJet_1p3_7p7_VBF1_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_QuadPFJet105_88_75_30_v,21,0.082,367661,370790,"JetMET[0,1]"
+HLT_QuadPFJet105_88_75_30_PNet1CvsAll0p5_VBF3Tight_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_QuadPFJet103_88_75_15_v,27.2,0.11,366403,370790,"JetMET[0,1]"
+HLT_QuadPFJet103_88_75_15_PFBTagDeepJet_1p3_VBF2_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_QuadPFJet103_88_75_15_DoublePFBTagDeepJet_1p3_7p7_VBF1_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_QuadPFJet100_88_70_30_v,27.2,0.11,366403,370790,"JetMET[0,1]"
+HLT_QuadPFJet100_88_70_30_PNet1CvsAll0p5_VBF3Tight_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_PixelClusters_WP2_v,0,0,365753,366035,"ExpressAlignment, ExpressPhysics"
+HLT_PixelClusters_WP1_v,0,0,365753,366035,ExpressPhysics
+HLT_Physics_v,27.2,0.54,365753,370790,"ExpressPhysics, HLTPhysics"
+HLT_Photon90EB_TightID_TightIso_v,27.2,2.3,366403,370790,"EGamma[0,1]"
+HLT_Photon90_v,27.2,0.053,366403,370790,"EGamma[0,1]"
+HLT_Photon90_R9Id90_HE10_IsoM_v,27.2,0.85,366403,370790,"EGamma[0,1]"
+HLT_Photon75EB_TightID_TightIso_v,27.2,1.1,366403,370790,"EGamma[0,1]"
+HLT_Photon75_v,27.2,0.053,366403,370790,"EGamma[0,1]"
+HLT_Photon75_R9Id90_HE10_IsoM_v,27.2,0.42,366403,370790,"EGamma[0,1]"
+HLT_Photon75_R9Id90_HE10_IsoM_EBOnly_PFJetsMJJ300DEta3_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Photon60_R9Id90_HE10_IsoM_EBOnly_PFJetsMJJ300DEta3_v,21,21,367661,370790,"EGamma[0,1]"
+HLT_Photon60_R9Id90_CaloIdL_IsoL_DisplacedIdL_PFHT400_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Photon60_R9Id90_CaloIdL_IsoL_DisplacedIdL_PFHT380_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Photon60_R9Id90_CaloIdL_IsoL_DisplacedIdL_PFHT350_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Photon50EB_TightID_TightIso_v,27.2,0.57,366403,370790,"EGamma[0,1]"
+HLT_Photon50_v,27.2,0.0044,366403,370790,"EGamma[0,1]"
+HLT_Photon50_TimeLtNeg2p5ns_v,21,0.84,367661,370790,"EGamma[0,1]"
+HLT_Photon50_TimeGt2p5ns_v,21,4.2,367661,370790,"EGamma[0,1]"
+HLT_Photon50_R9Id90_HE10_IsoM_v,27.2,0.11,366403,370790,"EGamma[0,1]"
+HLT_Photon35_TwoProngs35_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Photon33_v,27.2,0.0011,366403,370790,"EGamma[0,1]"
+HLT_Photon32_OneProng32_M50To105_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Photon30EB_TightID_TightIso_v,27.2,0.18,366403,370790,"EGamma[0,1]"
+HLT_Photon300_NoHE_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Photon30_HoverELoose_v,27.2,0.0047,366403,370790,"EGamma[0,1]"
+HLT_Photon200EB_TightID_TightIso_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Photon200_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Photon20_HoverELoose_v,27.2,0.0023,366403,370790,"EGamma[0,1]"
+HLT_Photon175EB_TightID_TightIso_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Photon175_v,27.2,0.42,366403,370790,"EGamma[0,1]"
+HLT_Photon165_R9Id90_HE10_IsoM_v,27.2,6.8,366403,370790,"EGamma[0,1]"
+HLT_Photon150EB_TightID_TightIso_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Photon150_v,27.2,0.21,366403,370790,"EGamma[0,1]"
+HLT_Photon130EB_TightID_TightIso_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Photon120_v,27.2,0.21,366403,370790,"EGamma[0,1]"
+HLT_Photon120_R9Id90_HE10_IsoM_v,27.2,3.4,366403,370790,"EGamma[0,1]"
+HLT_Photon110EB_TightID_TightIso_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Photon100EBHE10_v,27.2,0.85,366403,370790,"EGamma[0,1]"
+HLT_PFMETTypeOne200_BeamHaloCleaned_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMETTypeOne140_PFMHT140_IDTight_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMETNoMu140_PFMHTNoMu140_IDTight_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMETNoMu140_PFMHTNoMu140_IDTight_FilterHF_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMETNoMu130_PFMHTNoMu130_IDTight_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMETNoMu130_PFMHTNoMu130_IDTight_FilterHF_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_PFHT60_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_FilterHF_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_FilterHF_v,27.1,27.1,366403,370790,"JetMET[0,1]"
+HLT_PFMET300_NotCleaned_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMET250_NotCleaned_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMET200_NotCleaned_v,27.2,1.7,366403,370790,"JetMET[0,1]"
+HLT_PFMET200_BeamHaloCleaned_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMET140_PFMHT140_IDTight_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMET130_PFMHT130_IDTight_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMET120_PFMHT120_IDTight_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMET120_PFMHT120_IDTight_PFHT60_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFMET105_IsoTrk50_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFJetFwd80_v,27.2,0.005,366403,370790,"JetMET[0,1]"
+HLT_PFJetFwd60_v,25.3,0.00071,366403,370790,"JetMET[0,1]"
+HLT_PFJetFwd500_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFJetFwd450_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFJetFwd400_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFJetFwd40_v,27.2,7.10E-05,366403,370790,"JetMET[0,1]"
+HLT_PFJetFwd320_v,27.2,6.8,366403,370790,"JetMET[0,1]"
+HLT_PFJetFwd260_v,27.2,3.4,366403,370790,"JetMET[0,1]"
+HLT_PFJetFwd200_v,27.2,0.6,366403,370790,"JetMET[0,1]"
+HLT_PFJetFwd140_v,27.2,0.1,366403,370790,"JetMET[0,1]"
+HLT_PFJet80_v,27.2,0.0016,366403,370790,"JetMET[0,1]"
+HLT_PFJet60_v,27.2,0.00041,366403,370790,"JetMET[0,1]"
+HLT_PFJet550_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFJet500_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFJet450_v,27.2,3.4,366403,370790,"JetMET[0,1]"
+HLT_PFJet400_v,27.2,1.7,366403,370790,"JetMET[0,1]"
+HLT_PFJet40_v,27.2,5.90E-05,366403,370790,"JetMET[0,1]"
+HLT_PFJet40_GPUvsCPU_v,27.1,27.1,366403,370790,Commissioning
+HLT_PFJet320_v,27.2,0.85,366403,370790,"JetMET[0,1]"
+HLT_PFJet260_v,27.2,0.21,366403,370790,"JetMET[0,1]"
+HLT_PFJet200_v,27.2,0.079,366403,370790,"JetMET[0,1]"
+HLT_PFJet200_TimeLtNeg2p5ns_v,21,0.21,367661,370790,DisplacedJet
+HLT_PFJet200_TimeGt2p5ns_v,21,21,367661,370790,DisplacedJet
+HLT_PFJet140_v,27.2,0.02,366403,370790,"JetMET[0,1]"
+HLT_PFJet110_v,27.2,0.0065,366403,370790,"JetMET[0,1]"
+HLT_PFHT890_v,27.2,1.7,366403,370790,"JetMET[0,1]"
+HLT_PFHT800_PFMET75_PFMHT75_IDTight_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFHT780_v,27.2,0.85,366403,370790,"JetMET[0,1]"
+HLT_PFHT700_PFMET85_PFMHT85_IDTight_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFHT680_v,27.2,0.42,366403,370790,"JetMET[0,1]"
+HLT_PFHT590_v,27.2,0.21,366403,370790,"JetMET[0,1]"
+HLT_PFHT510_v,27.2,0.11,366403,370790,"JetMET[0,1]"
+HLT_PFHT500_PFMET110_PFMHT110_IDTight_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFHT500_PFMET100_PFMHT100_IDTight_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_PFHT450_SixPFJet36_v,27.2,1.1,366403,370790,"JetMET[0,1], ParkingHH"
+HLT_PFHT450_SixPFJet36_PNetBTag0p35_v,9.5,9.5,369869,370790,ParkingHH
+HLT_PFHT450_SixPFJet36_PFBTagDeepJet_1p59_v,17.6,17.6,366403,368823,"JetMET[0,1], ParkingHH"
+HLT_PFHT430_v,27.2,0.054,366403,370790,"JetMET[0,1]"
+HLT_PFHT400_SixPFJet32_v,27.2,0.42,366403,370790,"JetMET[0,1], ParkingHH"
+HLT_PFHT400_SixPFJet32_PNet2BTagMean0p50_v,9.5,9.5,369869,370790,ParkingHH
+HLT_PFHT400_SixPFJet32_DoublePFBTagDeepJet_2p94_v,17.6,17.6,366403,368823,"JetMET[0,1], ParkingHH"
+HLT_PFHT400_FivePFJet_120_120_60_30_30_DoublePFBTagDeepJet_4p5_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingHH"
+HLT_PFHT400_FivePFJet_100_100_60_30_30_v,27.2,0.68,366403,370790,"JetMET[0,1], ParkingHH"
+HLT_PFHT400_FivePFJet_100_100_60_30_30_DoublePFBTagDeepJet_4p5_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingHH"
+HLT_PFHT370_v,27.2,0.017,366403,370790,"JetMET[0,1]"
+HLT_PFHT350_v,27.2,0.11,366403,370790,"JetMET[0,1]"
+HLT_PFHT340_QuadPFJet70_50_40_40_PNet2BTagMean0p70_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingHH"
+HLT_PFHT330PT30_QuadPFJet_75_60_45_40_v,27.2,0.21,366403,370790,"JetMET[0,1], ParkingHH"
+HLT_PFHT330PT30_QuadPFJet_75_60_45_40_TriplePFBTagDeepJet_4p5_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingHH"
+HLT_PFHT280_QuadPFJet35_PNet2BTagMean0p60_v,21,21,367661,370790,ParkingHH
+HLT_PFHT280_QuadPFJet30_v,21,0.21,367661,370790,ParkingHH
+HLT_PFHT280_QuadPFJet30_PNet2BTagMean0p60_v,21,21,367661,370790,ParkingHH
+HLT_PFHT280_QuadPFJet30_PNet2BTagMean0p55_v,21,21,367661,370790,ParkingHH
+HLT_PFHT250_v,27.2,0.0066,366403,370790,"JetMET[0,1]"
+HLT_PFHT180_v,27.2,0.0024,366403,370790,"JetMET[0,1]"
+HLT_PFHT1050_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_Mu8_v,27.2,0.0058,366403,370790,"Muon[0,1]"
+HLT_Mu8_TrkIsoVVL_v,27.2,0.0058,366403,370790,"Muon[0,1]"
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_v,27.2,1.7,366403,370790,MuonEG
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_QuadPFJet70_50_40_30_v,6.2,6.1,366403,367619,MuonEG
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_QuadPFJet70_50_40_30_PFBTagParticleNet_2BTagSum0p65_v,6.2,6.1,366403,367619,MuonEG
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_PFHT280_v,21,21,367661,370790,MuonEG
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_PFHT280_QuadPFJet30_v,21,21,367661,370790,MuonEG
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_PFHT280_QuadPFJet30_PNet2BTagMean0p55_v,21,21,367661,370790,MuonEG
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_PFDiJet30_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_PFDiJet30_PNet2BTagMean0p50_v,21,21,367661,370790,MuonEG
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_PFDiJet30_PFBTagParticleNet_2BTagSum0p65_v,6.2,6.1,366403,367619,MuonEG
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_PFDiJet30_PFBtagDeepJet_1p5_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_DoubleAK4PFJet60_30_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_DoubleAK4PFJet60_30_PNet2BTagMean0p50_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu8_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_CaloDiJet30_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu8_TrkIsoVVL_DiPFJet40_DEta3p5_MJJ750_HTT300_PFMETNoMu60_v,27.2,27.2,366403,370790,"Muon[0,1], ParkingVBF[0-7]"
+HLT_Mu8_Ele8_CaloIdM_TrackIdM_Mass8_PFHT350_v,27.2,5.4,366403,370790,MuonEG
+HLT_Mu8_Ele8_CaloIdM_TrackIdM_Mass8_PFHT350_DZ_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu8_DiEle12_CaloIdL_TrackIdL_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu8_DiEle12_CaloIdL_TrackIdL_DZ_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu7p5_L2Mu2_Upsilon_v,27.2,0.018,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Mu7p5_L2Mu2_Jpsi_v,27.2,0.018,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Mu6HT240_DisplacedDijet50_Inclusive0PtrkShortSig5_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_Mu6HT240_DisplacedDijet45_Inclusive0PtrkShortSig5_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_Mu6HT240_DisplacedDijet40_Inclusive1PtrkShortSig5_DisplacedLoose_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_Mu6HT240_DisplacedDijet40_Inclusive0PtrkShortSig5_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_Mu6HT240_DisplacedDijet35_Inclusive1PtrkShortSig5_DisplacedLoose_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_Mu6HT240_DisplacedDijet35_Inclusive0PtrkShortSig5_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_Mu6HT240_DisplacedDijet30_Inclusive1PtrkShortSig5_DisplacedLoose_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_Mu55_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu50_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu50_L1SingleMuShower_v,27.1,27.1,366403,370790,"Muon[0,1]"
+HLT_Mu50_IsoVVVL_PFHT450_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu48NoFiltersNoVtx_Photon48_CaloIdL_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu43NoFiltersNoVtxDisplaced_Photon43_CaloIdL_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu43NoFiltersNoVtx_Photon43_CaloIdL_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu4_TrkIsoVVL_DiPFJet90_40_DEta3p5_MJJ750_HTT300_PFMETNoMu60_v,27.2,27.2,366403,370790,"Muon[0,1], ParkingVBF[0-7]"
+HLT_Mu4_L1DoubleMu_v,27.2,0.027,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Mu3er1p5_PFJet100er2p5_PFMETNoMu90_PFMHTNoMu90_IDTight_v,0,0,366403,370790,"Muon[0,1]"
+HLT_Mu3er1p5_PFJet100er2p5_PFMETNoMu80_PFMHTNoMu80_IDTight_v,0,0,366403,370790,"Muon[0,1]"
+HLT_Mu3er1p5_PFJet100er2p5_PFMETNoMu100_PFMHTNoMu100_IDTight_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu3er1p5_PFJet100er2p5_PFMET90_PFMHT90_IDTight_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu3er1p5_PFJet100er2p5_PFMET80_PFMHT80_IDTight_v,0,0,366403,370790,"Muon[0,1]"
+HLT_Mu3er1p5_PFJet100er2p5_PFMET100_PFMHT100_IDTight_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu38NoFiltersNoVtxDisplaced_Photon38_CaloIdL_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu37_TkMu27_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu37_Ele27_CaloIdL_MW_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu30_TkMu0_Upsilon_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Mu30_TkMu0_Psi_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Mu3_PFJet40_v,27.2,0.0012,366403,370790,"Muon[0,1]"
+HLT_Mu27_v,27.2,0.054,366403,370790,"Muon[0,1]"
+HLT_Mu27_Ele37_CaloIdL_MW_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu25_TkMu0_Phi_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Mu23_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu23_TrkIsoVVL_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu20NoFiltersNoVtxDisplaced_Photon20_CaloCustomId_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu20_v,27.2,0.082,366403,370790,"Muon[0,1]"
+HLT_Mu19_v,27.2,0.078,366403,370790,"Muon[0,1]"
+HLT_Mu19_TrkIsoVVL_v,27.2,0.078,366403,370790,"Muon[0,1]"
+HLT_Mu19_TrkIsoVVL_Mu9_TrkIsoVVL_v,27.2,1.4,366403,370790,"Muon[0,1]"
+HLT_Mu19_TrkIsoVVL_Mu9_TrkIsoVVL_DZ_v,27.2,1.4,366403,370790,"Muon[0,1]"
+HLT_Mu19_TrkIsoVVL_Mu9_TrkIsoVVL_DZ_Mass8_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu19_TrkIsoVVL_Mu9_TrkIsoVVL_DZ_Mass3p8_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu18_Mu9_SameSign_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu17_v,27.2,0.078,366403,370790,"Muon[0,1]"
+HLT_Mu17_TrkIsoVVL_v,27.2,0.078,366403,370790,"Muon[0,1]"
+HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_v,27.2,1.4,366403,370790,"Muon[0,1]"
+HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_v,27.2,1.4,366403,370790,"ExpressPhysics, Muon[0,1]"
+HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8_v,27.2,27.2,366403,370790,"ExpressPhysics, Muon[0,1]"
+HLT_Mu17_Photon30_IsoCaloId_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu15_v,27.2,0.042,366403,370790,"Muon[0,1]"
+HLT_Mu15_IsoVVVL_PFHT600_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu15_IsoVVVL_PFHT450_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu15_IsoVVVL_PFHT450_PFMET50_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_Mu12eta2p3_v,27.2,0.0011,366403,370790,"JetMET[0,1]"
+HLT_Mu12eta2p3_PFJet40_v,27.2,0.0025,366403,370790,"JetMET[0,1]"
+HLT_Mu12_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_v,27.2,1.7,366403,370790,MuonEG
+HLT_Mu12_TrkIsoVVL_Ele23_CaloIdL_TrackIdL_IsoVL_DZ_v,27.2,27.2,366403,370790,MuonEG
+HLT_Mu12_DoublePFJets54MaxDeta1p6_DoublePFBTagDeepJet_p71_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_Mu12_DoublePFJets40MaxDeta1p6_DoublePFBTagDeepJet_p71_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_Mu12_DoublePFJets40_PFBTagDeepJet_p71_v,27.2,0.068,366403,370790,"JetMET[0,1]"
+HLT_Mu12_DoublePFJets350_PFBTagDeepJet_p71_v,27.2,9.1,366403,370790,"JetMET[0,1]"
+HLT_Mu12_DoublePFJets200_PFBTagDeepJet_p71_v,27.2,9.1,366403,370790,"JetMET[0,1]"
+HLT_Mu12_DoublePFJets100_PFBTagDeepJet_p71_v,27.2,0.52,366403,370790,"JetMET[0,1]"
+HLT_Mu10_TrkIsoVVL_DiPFJet40_DEta3p5_MJJ750_HTT350_PFMETNoMu60_v,27.2,27.2,366403,370790,"Muon[0,1], ParkingVBF[0-7]"
+HLT_MinimumBiasHF_v,0,0,365753,366035,ExpressPhysics
+HLT_MET120_IsoTrk50_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_MET105_IsoTrk50_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_LooseDeepTauPFTauHPS180_L2NN_eta2p1_v,27.2,27.2,366403,370790,Tau
+HLT_L3dTksMu10_NoVtx_DxyMin0p01cm_v,27.2,0.027,366403,370790,"Muon[0,1]"
+HLT_L2Mu45_NoVertex_3Sta_NoBPTX3BX_v,27.2,27.2,366403,370790,NoBPTX
+HLT_L2Mu40_NoVertex_3Sta_NoBPTX3BX_v,27.2,27.2,366403,370790,NoBPTX
+HLT_L2Mu10_NoVertex_NoBPTX3BX_v,27.2,0.34,366403,370790,NoBPTX
+HLT_L2Mu10_NoVertex_NoBPTX_v,27.2,0.11,366403,370790,NoBPTX
+HLT_L1Tau_DelayedJet40_SingleDelay4nsInclusive_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_L1Tau_DelayedJet40_SingleDelay3p75nsInclusive_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_L1Tau_DelayedJet40_SingleDelay3p5nsInclusive_v,26.9,26.9,366403,370790,DisplacedJet
+HLT_L1Tau_DelayedJet40_SingleDelay3nsTrackless_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_L1Tau_DelayedJet40_SingleDelay2p75To4nsInclusive_v,9.2,9.2,369869,370790,ParkingLLP
+HLT_L1Tau_DelayedJet40_SingleDelay2p75To3p5nsInclusive_v,11.5,11.5,367661,368823,ParkingLLP
+HLT_L1Tau_DelayedJet40_SingleDelay2p75nsTrackless_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_L1Tau_DelayedJet40_SingleDelay2p6To4nsInclusive_v,0,0,369869,370790,ParkingLLP
+HLT_L1Tau_DelayedJet40_SingleDelay2p6To3p5nsInclusive_v,2.6,2.6,367661,368823,ParkingLLP
+HLT_L1Tau_DelayedJet40_SingleDelay2p5To4nsInclusive_v,0,0,369869,370790,ParkingLLP
+HLT_L1Tau_DelayedJet40_SingleDelay2p5To3p5nsInclusive_v,2.6,2.6,367661,368823,ParkingLLP
+HLT_L1Tau_DelayedJet40_SingleDelay2p5nsTrackless_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_L1Tau_DelayedJet40_DoubleDelay1p75nsInclusive_v,9.2,9.2,369869,370790,DisplacedJet
+HLT_L1Tau_DelayedJet40_DoubleDelay1p5nsTrackless_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_L1Tau_DelayedJet40_DoubleDelay1p5nsInclusive_v,9.2,9.2,369869,370790,DisplacedJet
+HLT_L1Tau_DelayedJet40_DoubleDelay1p25nsTrackless_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_L1Tau_DelayedJet40_DoubleDelay1p25nsInclusive_v,27.2,17.8,366403,370790,DisplacedJet
+HLT_L1Tau_DelayedJet40_DoubleDelay1nsTrackless_v,27.2,17.8,366403,370790,DisplacedJet
+HLT_L1Tau_DelayedJet40_DoubleDelay0p75nsInclusive_v,27.2,0.027,366403,370790,DisplacedJet
+HLT_L1Tau_DelayedJet40_DoubleDelay0p5nsTrackless_v,27.2,0.054,366403,370790,DisplacedJet
+HLT_L1SingleMuCosmics_v,0,0,366403,370790,Cosmics
+HLT_L1SingleLLPJet_v,27.2,0.027,366403,370790,DisplacedJet
+HLT_L1Mu6HT240_v,27.2,0.027,366403,370790,DisplacedJet
+HLT_L1MET_DTClusterNoMB1S50_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_L1MET_DTCluster50_v,27.2,0.27,366403,370790,DisplacedJet
+HLT_L1ETMHadSeeds_v,27.2,0.027,366403,370790,"JetMET[0,1]"
+HLT_L1CSCShower_DTCluster75_v,27.1,27.1,366403,370790,"Muon[0,1]"
+HLT_L1CSCShower_DTCluster50_v,27.1,27.1,366403,370790,"Muon[0,1]"
+HLT_L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142_v,27.2,0.3,366403,370790,Commissioning
+HLT_IsoTrackHE_v,27.2,13.2,365753,370790,Commissioning
+HLT_IsoTrackHB_v,27.2,6.6,365753,370790,Commissioning
+HLT_IsoMu50_AK8PFJet230_SoftDropMass40_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu50_AK8PFJet230_SoftDropMass40_PNetBB0p10_v,21,21,367661,370790,"Muon[0,1]"
+HLT_IsoMu50_AK8PFJet230_SoftDropMass40_PNetBB0p06_v,21,21,367661,370790,"Muon[0,1]"
+HLT_IsoMu50_AK8PFJet230_SoftDropMass40_PFAK8ParticleNetBB0p35_v,6.2,6.1,366403,367619,"Muon[0,1]"
+HLT_IsoMu50_AK8PFJet220_SoftDropMass40_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu50_AK8PFJet220_SoftDropMass40_PNetBB0p06_v,21,21,367661,370790,"Muon[0,1]"
+HLT_IsoMu50_AK8PFJet220_SoftDropMass40_PFAK8ParticleNetBB0p35_v,6.2,6.1,366403,367619,"Muon[0,1]"
+HLT_IsoMu27_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu27_MediumDeepTauPFTauHPS20_eta2p1_SingleL1_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu24_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu24_TwoProngs35_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu24_OneProng32_v,9.5,9.5,369869,370790,"Muon[0,1]"
+HLT_IsoMu24_eta2p1_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu24_eta2p1_MediumDeepTauPFTauHPS45_L2NN_eta2p1_CrossL1_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu24_eta2p1_MediumDeepTauPFTauHPS35_L2NN_eta2p1_CrossL1_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu24_eta2p1_MediumDeepTauPFTauHPS30_L2NN_eta2p1_PFJet75_CrossL1_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu24_eta2p1_MediumDeepTauPFTauHPS30_L2NN_eta2p1_PFJet60_CrossL1_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu24_eta2p1_MediumDeepTauPFTauHPS30_L2NN_eta2p1_CrossL1_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu24_eta2p1_MediumDeepTauPFTauHPS20_eta2p1_SingleL1_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu24_eta2p1_LooseDeepTauPFTauHPS30_eta2p1_CrossL1_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu24_eta2p1_LooseDeepTauPFTauHPS180_eta2p1_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_IsoMu20_v,27.2,0.41,366403,370790,"Muon[0,1]"
+HLT_IsoMu20_eta2p1_LooseDeepTauPFTauHPS27_eta2p1_CrossL1_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_HT650_DisplacedDijet60_Inclusive_v,27.2,27.2,366403,370790,"DisplacedJet, ParkingLLP"
+HLT_HT60_Beamspot_v,0,0,365753,366035,ExpressAlignment
+HLT_HT550_DisplacedDijet60_Inclusive_v,27.2,1.7,366403,370790,DisplacedJet
+HLT_HT500_DisplacedDijet40_DisplacedTrack_v,6.2,6.1,366403,367619,DisplacedJet
+HLT_HT430_DisplacedDijet60_DisplacedTrack_v,6.2,6.1,366403,367619,DisplacedJet
+HLT_HT430_DisplacedDijet40_Inclusive1PtrkShortSig5_v,27.2,27.2,366403,370790,"DisplacedJet, ParkingLLP"
+HLT_HT430_DisplacedDijet40_DisplacedTrack_v,27.2,27.2,366403,370790,"DisplacedJet, ParkingLLP"
+HLT_HT430_DelayedJet40_SingleDelay2p5nsInclusive_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_HT430_DelayedJet40_SingleDelay2p25nsInclusive_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_HT430_DelayedJet40_SingleDelay2nsInclusive_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT430_DelayedJet40_SingleDelay1To1p5nsInclusive_v,3.4,3.4,367661,370790,ParkingLLP
+HLT_HT430_DelayedJet40_SingleDelay1p5nsTrackless_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_HT430_DelayedJet40_SingleDelay1p5nsInclusive_v,27.2,0.27,366403,370790,DisplacedJet
+HLT_HT430_DelayedJet40_SingleDelay1p25To1p75nsInclusive_v,21,21,367661,370790,ParkingLLP
+HLT_HT430_DelayedJet40_SingleDelay1p25nsTrackless_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_HT430_DelayedJet40_SingleDelay1p1To1p6nsInclusive_v,3.4,3.4,367661,370790,ParkingLLP
+HLT_HT430_DelayedJet40_SingleDelay1nsTrackless_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT430_DelayedJet40_SingleDelay1nsInclusive_v,27.2,0.054,366403,370790,DisplacedJet
+HLT_HT430_DelayedJet40_SingleDelay0p5nsTrackless_v,27.2,0.27,366403,370790,DisplacedJet
+HLT_HT430_DelayedJet40_SingleDelay0p5nsInclusive_v,27.2,0.011,366403,370790,DisplacedJet
+HLT_HT430_DelayedJet40_DoubleDelay1p5nsInclusive_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_HT430_DelayedJet40_DoubleDelay1p25nsInclusive_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_HT430_DelayedJet40_DoubleDelay1nsTrackless_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_HT430_DelayedJet40_DoubleDelay1nsInclusive_v,27.2,17.8,366403,370790,DisplacedJet
+HLT_HT430_DelayedJet40_DoubleDelay0p75nsTrackless_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_HT430_DelayedJet40_DoubleDelay0p5nsTrackless_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT430_DelayedJet40_DoubleDelay0p5nsInclusive_v,27.2,0.054,366403,370790,DisplacedJet
+HLT_HT425_v,27.2,0.053,366403,370790,DisplacedJet
+HLT_HT420_L1SingleLLPJet_DisplacedDijet60_Inclusive_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT400_DisplacedDijet40_DisplacedTrack_v,27.2,6.8,366403,370790,DisplacedJet
+HLT_HT390eta2p0_DisplacedDijet40_Inclusive1PtrkShortSig5_v,21,21,367661,370790,ParkingLLP
+HLT_HT390_DisplacedDijet45_Inclusive1PtrkShortSig5_v,21,21,367661,370790,ParkingLLP
+HLT_HT390_DisplacedDijet40_Inclusive1PtrkShortSig5_v,2.6,2.6,367661,370790,ParkingLLP
+HLT_HT360_DisplacedDijet45_Inclusive1PtrkShortSig5_v,2.6,2.6,367661,370790,ParkingLLP
+HLT_HT360_DisplacedDijet40_Inclusive1PtrkShortSig5_v,2.6,2.6,367661,370790,ParkingLLP
+HLT_HT350_v,21,0.01,367661,370790,DisplacedJet
+HLT_HT350_DelayedJet40_SingleDelay3p5nsInclusive_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_HT350_DelayedJet40_SingleDelay3p25nsInclusive_v,9.5,9.5,369869,370790,DisplacedJet
+HLT_HT350_DelayedJet40_SingleDelay3nsInclusive_v,21,21,367661,370790,DisplacedJet
+HLT_HT350_DelayedJet40_SingleDelay1p75To3p5nsInclusive_v,9.5,9.5,369869,370790,ParkingLLP
+HLT_HT350_DelayedJet40_SingleDelay1p75To3nsInclusive_v,11.5,11.5,367661,368823,ParkingLLP
+HLT_HT350_DelayedJet40_SingleDelay1p6To3p5nsInclusive_v,0,0,369869,370790,ParkingLLP
+HLT_HT350_DelayedJet40_SingleDelay1p6To3nsInclusive_v,2.6,2.6,367661,368823,ParkingLLP
+HLT_HT350_DelayedJet40_SingleDelay1p5To3p5nsInclusive_v,0,0,369869,370790,ParkingLLP
+HLT_HT350_DelayedJet40_SingleDelay1p5To3nsInclusive_v,2.6,2.6,367661,368823,ParkingLLP
+HLT_HT320_L1SingleLLPJet_DisplacedDijet60_Inclusive_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT300_Beamspot_v,27.2,0.44,365753,370790,ExpressAlignment
+HLT_HT300_Beamspot_PixelClustersWP2_v,0,0,365753,366035,ExpressAlignment
+HLT_HT280_L1SingleLLPJet_DisplacedDijet40_Inclusive1PtrkShortSig5_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT270_L1SingleLLPJet_DisplacedDijet40_DisplacedTrack_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT240_L1SingleLLPJet_DisplacedDijet40_Inclusive1PtrkShortSig5_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT200_L1SingleLLPJet_DisplacedDijet60_DisplacedTrack_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT200_L1SingleLLPJet_DisplacedDijet40_Inclusive1PtrkShortSig5_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT200_L1SingleLLPJet_DisplacedDijet40_DisplacedTrack_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT200_L1SingleLLPJet_DisplacedDijet35_Inclusive1PtrkShortSig5_v,6.2,6.1,366403,370790,DisplacedJet
+HLT_HT200_L1SingleLLPJet_DelayedJet40_SingleDelay2nsInclusive_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT200_L1SingleLLPJet_DelayedJet40_SingleDelay1nsTrackless_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT200_L1SingleLLPJet_DelayedJet40_DoubleDelay1nsInclusive_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT200_L1SingleLLPJet_DelayedJet40_DoubleDelay0p5nsTrackless_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HT170_L1SingleLLPJet_DisplacedDijet40_DisplacedTrack_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_HighPtTkMu100_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_HcalPhiSym_v,27.2,27.2,365753,370790,HcalNZS
+HLT_HcalNZS_v,27.2,27.2,365753,370790,HcalNZS
+HLT_HcalIsolatedbunch_v,6.2,6.2,366403,367619,IsolatedBunch
+HLT_ExpressMuons_v,27.2,27.2,366403,370790,ExpressPhysics
+HLT_EphemeralZeroBias_v,1.2,0.0005,365753,370790,"EphemeralZeroBias[0-19], SpecialZeroBias[0-7]"
+HLT_EphemeralPhysics_v,0.9,0.018,366403,370790,"EphemeralHLTPhysics[0-19], SpecialHLTPhysics[0-7]"
+HLT_Ele8_CaloIdM_TrackIdM_PFJet30_v,27.2,0.0047,366403,370790,"EGamma[0,1]"
+HLT_Ele8_CaloIdL_TrackIdL_IsoVL_PFJet30_v,27.2,0.0047,366403,370790,"EGamma[0,1]"
+HLT_Ele50_IsoVVVL_PFHT450_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele50_CaloIdVT_GsfTrkIdT_AK8PFJet230_SoftDropMass40_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele50_CaloIdVT_GsfTrkIdT_AK8PFJet230_SoftDropMass40_PNetBB0p10_v,21,21,367661,370790,"EGamma[0,1]"
+HLT_Ele50_CaloIdVT_GsfTrkIdT_AK8PFJet230_SoftDropMass40_PNetBB0p06_v,21,21,367661,370790,"EGamma[0,1]"
+HLT_Ele50_CaloIdVT_GsfTrkIdT_AK8PFJet230_SoftDropMass40_PFAK8ParticleNetBB0p35_v,6.2,6.1,366403,367619,"EGamma[0,1]"
+HLT_Ele50_CaloIdVT_GsfTrkIdT_AK8PFJet220_SoftDropMass40_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele50_CaloIdVT_GsfTrkIdT_AK8PFJet220_SoftDropMass40_PNetBB0p06_v,21,21,367661,370790,"EGamma[0,1]"
+HLT_Ele50_CaloIdVT_GsfTrkIdT_AK8PFJet220_SoftDropMass40_PFAK8ParticleNetBB0p35_v,6.2,6.1,366403,367619,"EGamma[0,1]"
+HLT_Ele40_WPTight_Gsf_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele38_WPTight_Gsf_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele36_WPTight_noEoP_missHitL_trkChi2L_Gsf_v,0,0,366403,367619,"EGamma[0,1]"
+HLT_Ele35_WPTight_Gsf_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele32_WPTight_Gsf_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele32_WPTight_Gsf_L1DoubleEG_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele30_WPTight_Gsf_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele30_eta2p1_WPTight_Gsf_CentralPFJet35_EleCleaned_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele28_HighEta_SC20_Mass55_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele28_eta2p1_WPTight_Gsf_HT150_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele24_eta2p1_WPTight_Gsf_LooseDeepTauPFTauHPS30_eta2p1_CrossL1_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele23_CaloIdM_TrackIdM_PFJet30_v,27.2,0.027,366403,370790,"EGamma[0,1]"
+HLT_Ele23_CaloIdL_TrackIdL_IsoVL_PFJet30_v,27.2,0.027,366403,370790,"EGamma[0,1]"
+HLT_Ele17_CaloIdM_TrackIdM_PFJet30_v,27.2,0.027,366403,370790,"EGamma[0,1]"
+HLT_Ele16_Ele12_Ele8_CaloIdL_TrackIdL_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele15_IsoVVVL_PFHT600_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele15_IsoVVVL_PFHT450_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele15_IsoVVVL_PFHT450_PFMET50_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele135_CaloIdVT_GsfTrkIdT_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Ele12_CaloIdL_TrackIdL_IsoVL_PFJet30_v,27.2,0.027,366403,370790,"EGamma[0,1]"
+HLT_Ele115_CaloIdVT_GsfTrkIdT_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_ECALHT800_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_DoublePhoton85_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_DoublePhoton70_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_DoublePhoton33_CaloIdL_v,27.2,0.42,366403,370790,"EGamma[0,1]"
+HLT_DoublePFJets40_PFBTagDeepJet_p71_v,27.2,0.0032,366403,370790,"JetMET[0,1]"
+HLT_DoublePFJets40_Mass500_MediumDeepTauPFTauHPS45_L2NN_MediumDeepTauPFTauHPS20_eta2p1_v,27.2,27.2,366403,370790,"ParkingVBF[0-7], Tau"
+HLT_DoublePFJets350_PFBTagDeepJet_p71_v,27.2,3.9,366403,370790,"JetMET[0,1]"
+HLT_DoublePFJets200_PFBTagDeepJet_p71_v,27.2,0.39,366403,370790,"JetMET[0,1]"
+HLT_DoublePFJets128MaxDeta1p6_DoublePFBTagDeepJet_p71_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_DoublePFJets116MaxDeta1p6_DoublePFBTagDeepJet_p71_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_DoublePFJets100_PFBTagDeepJet_p71_v,27.2,0.08,366403,370790,"JetMET[0,1]"
+HLT_DoubleMu5_Upsilon_DoubleEle3_CaloIdL_TrackIdL_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_DoubleMu48NoFiltersNoVtx_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleMu43NoFiltersNoVtx_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleMu4_MuMuTrk_Displaced_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_DoubleMu4_Mass3p8_DZ_PFHT350_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleMu4_LowMass_Displaced_v,27.2,27.2,366403,370790,ParkingDoubleMuonLowMass[0-7]
+HLT_DoubleMu4_JpsiTrkTrk_Displaced_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_DoubleMu4_JpsiTrk_Bc_v,27.2,27.2,366403,370790,ParkingDoubleMuonLowMass[0-7]
+HLT_DoubleMu4_Jpsi_NoVertexing_v,27.2,0.11,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_DoubleMu4_Jpsi_Displaced_v,27.2,0.45,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_DoubleMu4_3_Photon4_BsToMMG_v,27.2,27.2,366403,370790,ParkingDoubleMuonLowMass[0-7]
+HLT_DoubleMu4_3_LowMass_v,27.2,27.2,366403,370790,ParkingDoubleMuonLowMass[0-7]
+HLT_DoubleMu4_3_Jpsi_v,27.2,1.4,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_DoubleMu4_3_Displaced_Photon4_BsToMMG_v,27.2,27.2,366403,370790,ParkingDoubleMuonLowMass[0-7]
+HLT_DoubleMu4_3_Bs_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_DoubleMu3_Trk_Tau3mu_v,27.2,1.4,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_DoubleMu3_Trk_Tau3mu_NoL1Mass_v,27.2,1.4,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_DoubleMu3_TkMu_DsTau3Mu_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_DoubleMu3_DZ_PFMET90_PFMHT90_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleMu3_DZ_PFMET70_PFMHT70_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleMu3_DZ_PFMET50_PFMHT60_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleMu3_DoubleEle7p5_CaloIdL_TrackIdL_Upsilon_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_DoubleMu3_DCA_PFMET50_PFMHT60_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleMu2_Jpsi_DoubleTrk1_Phi1p05_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_DoubleMediumDeepTauPFTauHPS35_L2NN_eta2p1_v,27.2,27.2,366403,370790,Tau
+HLT_DoubleMediumDeepTauPFTauHPS30_L2NN_eta2p1_PFJet75_v,27.2,27.2,366403,370790,Tau
+HLT_DoubleMediumDeepTauPFTauHPS30_L2NN_eta2p1_PFJet60_v,27.2,27.2,366403,370790,Tau
+HLT_DoubleMediumDeepTauPFTauHPS30_L2NN_eta2p1_OneProng_M5to80_v,27.2,27.2,366403,370790,Tau
+HLT_DoubleMediumChargedIsoDisplacedPFTauHPS32_Trk1_eta2p1_v,27.2,27.2,366403,370790,Tau
+HLT_DoubleL3Mu20_10NoVtx_DxyMin0p01cm_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL3Mu18_10NoVtx_DxyMin0p01cm_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL3Mu16_10NoVtx_DxyMin0p01cm_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL3dTksMu16_10NoVtx_DxyMin0p01cm_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu50_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu30NoVtx_2Cha_Eta2p4_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu30NoVtx_2Cha_CosmicSeed_Eta2p4_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu25NoVtx_2Cha_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu25NoVtx_2Cha_Eta2p4_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu25NoVtx_2Cha_CosmicSeed_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu25NoVtx_2Cha_CosmicSeed_Eta2p4_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu23NoVtx_2Cha_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu23NoVtx_2Cha_CosmicSeed_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu14NoVtx_2Cha_VetoL3Mu0DxyMax1cm_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu12NoVtx_2Cha_VetoL3Mu0DxyMax1cm_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu12NoVtx_2Cha_CosmicSeed_VetoL3Mu0DxyMax1cm_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu10NoVtx_2Cha_VetoL3Mu0DxyMax1cm_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu10NoVtx_2Cha_CosmicSeed_VetoL3Mu0DxyMax1cm_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu_L3Mu18NoVtx_VetoL3Mu0DxyMax0p1cm_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleL2Mu_L3Mu16NoVtx_VetoL3Mu0DxyMax0p1cm_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_DoubleEle9p5_eta1p22_mMax6_v,23.1,23,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle9p5_eta1p22_mMax6_trkHits10_v,21,20.9,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle9p5_eta1p22_mMax6_dz0p8_v,27.2,27,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle9_eta1p22_mMax6_v,23.1,23,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle9_eta1p22_mMax6_trkHits10_v,21,20.9,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle9_eta1p22_mMax6_dz0p8_v,27.2,27,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle8p5_eta1p22_mMax6_v,23.1,23,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle8p5_eta1p22_mMax6_trkHits10_v,21,20.9,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle8p5_eta1p22_mMax6_dz0p8_v,27.2,27,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle8_eta1p22_mMax6_v,23.1,23,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle8_eta1p22_mMax6_trkHits10_v,21,20.9,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle8_eta1p22_mMax6_dz0p8_v,27.2,27,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_PFHT350_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_DoubleEle8_CaloIdM_TrackIdM_Mass8_DZ_PFHT350_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_DoubleEle7p5_eta1p22_mMax6_v,23.1,23,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle7p5_eta1p22_mMax6_trkHits10_v,21,20.9,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle7p5_eta1p22_mMax6_dz0p8_v,27.2,27,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle7_eta1p22_mMax6_v,23.1,23,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle7_eta1p22_mMax6_trkHits10_v,21,20.9,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle7_eta1p22_mMax6_dz0p8_v,27.2,27,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle6p5_eta1p22_mMax6_v,23.1,23,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle6p5_eta1p22_mMax6_trkHits10_v,21,20.9,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle6p5_eta1p22_mMax6_dz0p8_v,27.2,27,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle6_eta1p22_mMax6_v,15.3,15.3,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle6_eta1p22_mMax6_trkHits10_v,13.2,13.2,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle6_eta1p22_mMax6_dz0p8_v,19.3,19.3,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle5p5_eta1p22_mMax6_v,14,14,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle5p5_eta1p22_mMax6_trkHits10_v,11.9,11.9,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle5p5_eta1p22_mMax6_dz0p8_v,17.9,17.9,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle5_eta1p22_mMax6_v,12.7,12.6,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle5_eta1p22_mMax6_trkHits10_v,11,11,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle5_eta1p22_mMax6_dz0p8_v,16.6,16.6,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle4p5_eta1p22_mMax6_v,5.9,5.9,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle4p5_eta1p22_mMax6_trkHits10_v,5.2,5.2,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle4p5_eta1p22_mMax6_dz0p8_v,8.6,8.6,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle4_eta1p22_mMax6_v,2.8,2.8,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle4_eta1p22_mMax6_trkHits10_v,2.5,2.5,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle4_eta1p22_mMax6_dz0p8_v,5,5,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle33_CaloIdL_MW_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_DoubleEle27_CaloIdL_MW_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_DoubleEle25_CaloIdL_MW_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_DoubleEle10_eta1p22_mMax6_v,27.2,27,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle10_eta1p22_mMax6_trkHits10_v,27.2,27,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleEle10_eta1p22_mMax6_dz0p8_v,27.2,27,366403,370790,ParkingDoubleElectronLowMass
+HLT_DoubleCscCluster75_v,9.5,9.5,369869,370790,"Muon[0,1]"
+HLT_DoubleCscCluster100_v,9.5,9.5,369869,370790,"Muon[0,1]"
+HLT_DiSC30_18_EIso_AND_HE_Mass70_v,27.2,0.11,366403,370790,"EGamma[0,1]"
+HLT_Diphoton30_22_R9Id_OR_IsoCaloId_AND_HE_R9Id_Mass95_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Diphoton30_22_R9Id_OR_IsoCaloId_AND_HE_R9Id_Mass90_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Diphoton30_18_R9IdL_AND_HE_AND_IsoCaloId_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Diphoton30_18_R9IdL_AND_HE_AND_IsoCaloId_Mass55_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Diphoton24_16_eta1p5_R9IdL_AND_HET_AND_IsoTCaloIdT_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Diphoton24_14_eta1p5_R9IdL_AND_HET_AND_IsoTCaloIdT_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Diphoton22_14_eta1p5_R9IdL_AND_HET_AND_IsoTCaloIdT_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_Diphoton22_14_eta1p5_R9IdL_AND_HE_AND_IsoTCaloIdT_v,27.2,0.27,366403,370790,"EGamma[0,1]"
+HLT_Diphoton20_14_eta1p5_R9IdL_AND_HET_AND_IsoTCaloIdT_v,27.2,0.27,366403,370790,"EGamma[0,1]"
+HLT_Diphoton20_14_eta1p5_R9IdL_AND_HE_AND_IsoTCaloIdT_v,27.2,0.27,366403,370790,"EGamma[0,1]"
+HLT_DiPhoton10Time2ns_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_DiPhoton10Time1p8ns_v,26.9,26.9,366403,370790,"EGamma[0,1]"
+HLT_DiPhoton10Time1p6ns_v,26.9,26.9,366403,370790,"EGamma[0,1]"
+HLT_DiPhoton10Time1p4ns_v,26.9,26.9,366403,370790,"EGamma[0,1]"
+HLT_DiPhoton10Time1p2ns_v,26.9,26.9,366403,370790,"EGamma[0,1]"
+HLT_DiPhoton10Time1ns_v,26.9,26.9,366403,370790,"EGamma[0,1]"
+HLT_DiPhoton10sminlt0p12_v,27.2,0.27,366403,370790,"EGamma[0,1]"
+HLT_DiPhoton10sminlt0p1_v,27.2,0.27,366403,370790,"EGamma[0,1]"
+HLT_DiPhoton10_CaloIdL_v,27.2,0.0014,366403,370790,"EGamma[0,1]"
+HLT_DiPFJetAve80_v,27.2,0.0016,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve80_HFJEC_v,27.2,0.0075,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve60_v,27.2,0.00047,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve60_HFJEC_v,27.2,0.0018,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve500_v,27.2,9.2,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve400_v,27.2,2.3,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve40_v,27.2,0.00012,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve320_v,27.2,0.77,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve300_HFJEC_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve260_v,27.2,0.29,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve260_HFJEC_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve220_HFJEC_v,27.2,4.6,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve200_v,27.2,0.079,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve160_HFJEC_v,27.2,0.6,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve140_v,27.2,0.02,366403,370790,"JetMET[0,1]"
+HLT_DiPFJetAve100_HFJEC_v,27.2,0.1,366403,370790,"JetMET[0,1]"
+HLT_Dimuon25_Jpsi_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon25_Jpsi_noCorrL1_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon24_Upsilon_noCorrL1_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon24_Phi_noCorrL1_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon18_PsiPrime_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon18_PsiPrime_noCorrL1_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon14_PsiPrime_v,27.2,27.2,366403,370790,ParkingDoubleMuonLowMass[0-7]
+HLT_Dimuon14_PsiPrime_noCorrL1_v,27.2,27.2,366403,370790,ParkingDoubleMuonLowMass[0-7]
+HLT_Dimuon14_Phi_Barrel_Seagulls_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon12_Upsilon_y1p4_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon10_Upsilon_y1p4_v,27.2,27.2,366403,370790,ParkingDoubleMuonLowMass[0-7]
+HLT_Dimuon0_Upsilon_NoVertexing_v,27.2,0.15,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_Upsilon_Muon_NoL1Mass_v,27.2,0.78,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_Upsilon_L1_4p5er2p0M_v,27.2,0.15,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_Upsilon_L1_4p5er2p0_v,27.2,0.34,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_Upsilon_L1_4p5_v,27.2,0.034,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_LowMass_v,27.2,0.006,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_LowMass_L1_TM530_v,27.2,0.039,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_LowMass_L1_4R_v,0,0,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_LowMass_L1_4_v,27.2,0.039,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_LowMass_L1_0er1p5R_v,0,0,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_LowMass_L1_0er1p5_v,27.2,0.06,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_Jpsi3p5_Muon2_v,27.2,27.2,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_Jpsi_v,27.2,0.0011,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_Jpsi_NoVertexing_v,27.2,0.018,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_Jpsi_NoVertexing_NoOS_v,27.2,0.018,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_Jpsi_NoVertexing_L1_4R_0er1p5R_v,27.2,0.091,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_Jpsi_L1_NoOS_v,27.2,0.018,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_Dimuon0_Jpsi_L1_4R_0er1p5R_v,27.2,0.091,366403,370790,"ParkingDoubleMuonLowMass[0-7], ReservedDoubleMuonLowMass"
+HLT_DiMu9_Ele9_CaloIdL_TrackIdL_v,27.2,13.6,366403,370790,MuonEG
+HLT_DiMu9_Ele9_CaloIdL_TrackIdL_DZ_v,27.2,27.2,366403,370790,MuonEG
+HLT_DiMu4_Ele9_CaloIdL_TrackIdL_DZ_Mass3p8_v,27.2,27.2,366403,370790,MuonEG
+HLT_DiJet110_35_Mjj650_PFMET130_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_DiJet110_35_Mjj650_PFMET120_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_DiJet110_35_Mjj650_PFMET110_v,27.2,27.2,366403,370790,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_DiEle27_WPTightCaloOnly_L1DoubleEG_v,27.2,27.2,366403,370790,"EGamma[0,1]"
+HLT_CscCluster_Tight_v,27.1,27.1,366403,370790,"Muon[0,1]"
+HLT_CscCluster_Medium_v,27.1,27.1,366403,370790,"Muon[0,1]"
+HLT_CscCluster_Loose_v,27.1,27.1,366403,370790,"Muon[0,1]"
+HLT_CDC_L2cosmic_5p5_er1p0_v,27.2,3,365753,370790,NoBPTX
+HLT_CDC_L2cosmic_10_er1p0_v,27.2,9.1,365753,370790,NoBPTX
+HLT_CascadeMu100_v,27.2,27.2,366403,370790,"Muon[0,1]"
+HLT_CaloMHT90_v,27.2,0.21,366403,370790,"JetMET[0,1]"
+HLT_CaloMET90_NotCleaned_v,27.2,0.21,366403,370790,"JetMET[0,1]"
+HLT_CaloMET60_DTClusterNoMB1S50_v,27.2,27.2,366403,370790,DisplacedJet
+HLT_CaloMET60_DTCluster50_v,27.2,0.54,366403,370790,DisplacedJet
+HLT_CaloMET350_NotCleaned_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_CaloJet550_NoJetID_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_CaloJet500_NoJetID_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_BTagMu_AK8Jet300_Mu5_v,27.2,13.6,366403,370790,BTagMu
+HLT_BTagMu_AK8Jet170_DoubleMu5_v,27.2,27.2,366403,370790,BTagMu
+HLT_BTagMu_AK8DiJet170_Mu5_v,27.2,2.3,366403,370790,BTagMu
+HLT_BTagMu_AK4Jet300_Mu5_v,27.2,27.2,366403,370790,BTagMu
+HLT_BTagMu_AK4DiJet70_Mu5_v,27.2,0.26,366403,370790,BTagMu
+HLT_BTagMu_AK4DiJet40_Mu5_v,27.2,0.053,366403,370790,BTagMu
+HLT_BTagMu_AK4DiJet20_Mu5_v,27.2,0.0085,366403,370790,BTagMu
+HLT_BTagMu_AK4DiJet170_Mu5_v,27.2,4.5,366403,370790,BTagMu
+HLT_BTagMu_AK4DiJet110_Mu5_v,27.2,1,366403,370790,BTagMu
+HLT_AK8PFJetFwd80_v,27.2,0.0017,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJetFwd60_v,25.3,0.00037,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJetFwd500_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJetFwd450_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJetFwd400_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJetFwd40_v,27.2,2.40E-06,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJetFwd320_v,27.2,6.8,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJetFwd260_v,27.2,3.4,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJetFwd25_v,0,0,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJetFwd200_v,27.2,0.6,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJetFwd15_v,0,0,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJetFwd140_v,27.2,0.051,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet80_v,27.2,0.00081,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet60_v,27.2,7.60E-05,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet550_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet500_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet500_MassSD30_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet470_MassSD30_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet450_v,27.2,3.4,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet450_SoftDropMass40_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet450_MassSD30_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet425_SoftDropMass40_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet420_MassSD30_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet400_v,27.2,1.7,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet400_MassSD30_v,0,0,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet40_v,27.2,7.10E-06,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet320_v,27.2,0.57,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet275_SoftDropMass40_PNetTauTau0p05_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet275_SoftDropMass40_PNetTauTau0p03_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet275_SoftDropMass40_PNetBB0p10_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet275_SoftDropMass40_PNetBB0p06_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet275_SoftDropMass40_PFAK8ParticleNetTauTau0p30_v,6.2,6.1,366403,367619,"JetMET[0,1]"
+HLT_AK8PFJet275_SoftDropMass40_PFAK8ParticleNetBB0p35_v,6.2,6.1,366403,367619,"JetMET[0,1]"
+HLT_AK8PFJet260_v,27.2,0.21,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet250_SoftDropMass40_PNetTauTau0p05_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet250_SoftDropMass40_PNetTauTau0p03_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet250_SoftDropMass40_PNetBB0p10_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet250_SoftDropMass40_PNetBB0p06_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet250_SoftDropMass40_PFAK8ParticleNetTauTau0p30_v,6.2,6.1,366403,367619,"JetMET[0,1]"
+HLT_AK8PFJet250_SoftDropMass40_PFAK8ParticleNetBB0p35_v,6.2,6.1,366403,367619,"JetMET[0,1]"
+HLT_AK8PFJet230_SoftDropMass40_v,27.2,0.27,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet230_SoftDropMass40_PNetTauTau0p05_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet230_SoftDropMass40_PNetTauTau0p03_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet230_SoftDropMass40_PNetBB0p10_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet230_SoftDropMass40_PNetBB0p06_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet230_SoftDropMass40_PFAK8ParticleNetTauTau0p30_v,6.2,6.1,366403,367619,"JetMET[0,1]"
+HLT_AK8PFJet220_SoftDropMass40_v,27.2,0.23,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet220_SoftDropMass40_PNetBB0p35_DoubleAK4PFJet60_30_PNet2BTagMean0p60_v,6.2,6.1,366403,367619,"JetMET[0,1]"
+HLT_AK8PFJet220_SoftDropMass40_PNetBB0p35_DoubleAK4PFJet60_30_PNet2BTagMean0p55_v,6.2,6.1,366403,367619,"JetMET[0,1]"
+HLT_AK8PFJet220_SoftDropMass40_PNetBB0p35_DoubleAK4PFJet60_30_PNet2BTagMean0p53_v,6.2,6.1,366403,367619,"JetMET[0,1]"
+HLT_AK8PFJet220_SoftDropMass40_PNetBB0p35_DoubleAK4PFJet60_30_PNet2BTagMean0p50_v,6.2,6.1,366403,367619,"JetMET[0,1]"
+HLT_AK8PFJet220_SoftDropMass40_PNetBB0p06_DoubleAK4PFJet60_30_PNet2BTagMean0p60_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet220_SoftDropMass40_PNetBB0p06_DoubleAK4PFJet60_30_PNet2BTagMean0p55_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet220_SoftDropMass40_PNetBB0p06_DoubleAK4PFJet60_30_PNet2BTagMean0p53_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet220_SoftDropMass40_PNetBB0p06_DoubleAK4PFJet60_30_PNet2BTagMean0p50_v,21,21,367661,370790,"JetMET[0,1]"
+HLT_AK8PFJet200_v,27.2,0.079,366403,370790,"JetMET[0,1]"
+HLT_AK8PFJet140_v,27.2,0.02,366403,370790,"JetMET[0,1]"
+HLT_AK8DiPFJet290_290_MassSD30_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8DiPFJet280_280_MassSD30_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8DiPFJet270_270_MassSD30_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8DiPFJet260_260_MassSD50_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8DiPFJet260_260_MassSD30_v,0,0,366403,370790,"JetMET[0,1]"
+HLT_AK8DiPFJet250_250_MassSD50_v,27.2,27.2,366403,370790,"JetMET[0,1]"
+HLT_AK8DiPFJet250_250_MassSD30_v,0,0,366403,370790,"JetMET[0,1]"
+DST_Run3_PFScoutingPixelTracking_v,6.2,6.1,366403,367619,ScoutingPFRun3
+DST_Run3_JetHT_PFScoutingPixelTracking_v,21,21,367661,370790,ScoutingPFRun3
+DST_Run3_EG30_PFScoutingPixelTracking_v,27.2,27.2,366403,370790,ScoutingPFRun3
+DST_Run3_EG16_EG12_PFScoutingPixelTracking_v,27.2,27.2,366403,370790,ScoutingPFRun3
+DST_Run3_DoubleMu3_PFScoutingPixelTracking_v,21,21,367661,370790,ScoutingPFRun3
+DST_HLTMuon_Run3_PFScoutingPixelTracking_v,27.2,27.2,366403,370790,ScoutingPFRun3

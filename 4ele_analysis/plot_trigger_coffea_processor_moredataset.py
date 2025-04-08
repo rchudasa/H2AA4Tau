@@ -39,7 +39,7 @@ bins = np.linspace(4, 100, 12)
 def plotEfficiency(bins, datasets_dict, triggerName):
     bin_centers = bins[:-1] + np.diff(bins) / 2
     
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(9, 8))
     
     colors = ['blue', 'red', 'green', 'magenta', 'orange', 'cyan']
     styles = ['o','^','s','v','>','<']
@@ -72,9 +72,9 @@ def plotEfficiency(bins, datasets_dict, triggerName):
     plt.ylabel('Efficiency')
     
     # Add a legend and save the plot
-    plt.text(150, 1.1, f"Trigger: {triggerName}", fontsize=12, ha='right', color='black')
-    plt.legend(prop={'size': 10}, loc='best', frameon=False)
-    plt.savefig(f'figures_run3_triggerEff_check/{triggerName}.png')
+    plt.text(15, 1.1, f"Trigger: {triggerName}", fontsize=12, ha='left', color='black')
+    plt.legend(prop={'size': 10}, loc='upper right', frameon=False)
+    plt.savefig(f'figures_triggerEff/{triggerName}.png')
     plt.close()
     
     
@@ -104,7 +104,7 @@ class MyProcessor(processor.ProcessorABC):
                 #remove_branch = ['Prescl','ZeroBias','Physics','Calibration','Random','Hcal','Beam']
                 remove_branch = ['Prescl','Photon','ZeroBias','Physics','Calibration','Random','Hcal','Beam','Mu','Tau','Jet']
                 #keep_branch = ['Jet','Tau', 'PFTau','PFHT','MET']
-                keep_branch = ['DoubleEle','DiEle','Pho']
+                keep_branch = ['DoubleEle','DiEle','Pho','Ele']
                 #if 'HLT' in branch_name and 'Jet' in branch_name and not contains_any_char(branch_name,remove_branch):
                 if contains_any_char(branch_name,keep_branch) and not contains_any_char(branch_name,remove_branch):
                 #if not contains_any_char(branch_name,remove_branch):
@@ -160,7 +160,7 @@ def makeFileSet(path):
     root_set = set(root_files)
     return root_set
 
-commonPath = "/eos/uscms/store/group/lpcml/rchudasa/MCGenerationRun3/HToAATo4Ele_Run3_2023/4Ele_nanoAODSIM/241217_094641/0000/"
+commonPath = "/eos/cms/store/group/phys_diffraction/rchudasa/MCGeneration/HToAATo4Ele_Run3_2023/nanoAOD/"
 
 
 fileset = {
@@ -197,9 +197,8 @@ print("======================================================")
 start = time.time()
 # Loop through triggers and plot efficiencies for each
 for trigger_name,eff_value in out["0p01"]["Efficiency"].items():
-    #if eff_value > 0.01:
-    # if eff_value < 0.1:
-    #     continue
+    if eff_value < 0.1:
+        continue
     datasets_dict = {}
     for dataset_name in fileset.keys():
         print("Dataset:",dataset_name, " Trigger name:",trigger_name, " Efficiency:", out[dataset_name]["Efficiency"][trigger_name])

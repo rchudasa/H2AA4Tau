@@ -1,0 +1,192 @@
+Trigger_Name,Events_passed,Actual_lumi,Effective_lumi,datasets
+HLT_DoubleMediumDeepTauPFTauHPS35_L2NN_eta2p1,756,27.2,27.2,Tau
+HLT_DoubleMediumDeepTauPFTauHPS30_L2NN_eta2p1_PFJet60,717,27.2,27.2,Tau
+HLT_PFHT400_FivePFJet_100_100_60_30_30,669,27.2,0.68,"JetMET[0,1], ParkingHH"
+HLT_DoubleMediumDeepTauPFTauHPS30_L2NN_eta2p1_PFJet75,660,27.2,27.2,Tau
+HLT_AK8PFJet320,634,27.2,0.57,"JetMET[0,1]"
+HLT_PFHT680,518,27.2,0.42,"JetMET[0,1]"
+HLT_PFJet320,517,27.2,0.85,"JetMET[0,1]"
+HLT_DiPFJetAve260,486,27.2,0.29,"JetMET[0,1]"
+HLT_VBF_DiPFJet70_40_Mjj600_Detajj2p5_DiPFJet60_JetMatchingQuadJet,449,21.0,21.0,ParkingVBF[0-7]
+HLT_PFMETNoMu110_PFMHTNoMu110_IDTight_FilterHF,443,27.1,27.1,"JetMET[0,1]"
+HLT_AK8PFJet230_SoftDropMass40_PNetTauTau0p03,425,21.0,21.0,"JetMET[0,1]"
+HLT_AK8PFJet230_SoftDropMass40_PNetTauTau0p05,416,21.0,21.0,"JetMET[0,1]"
+HLT_VBF_DiPFJet125_45_Mjj720_Detajj3p0,401,1.7,1.7,ParkingVBF[0-7]
+HLT_VBF_DiPFJet75_45_Mjj600_Detajj2p5_DiPFJet60_JetMatchingQuadJet,393,9.5,9.5,ParkingVBF[0-7]
+HLT_PFHT500_PFMET100_PFMHT100_IDTight,392,27.2,27.2,"JetMET[0,1]"
+HLT_AK8PFJet250_SoftDropMass40_PNetTauTau0p03,390,21.0,21.0,"JetMET[0,1]"
+HLT_AK8PFJet250_SoftDropMass40_PNetTauTau0p05,382,21.0,21.0,"JetMET[0,1]"
+HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_PFHT60,363,27.2,27.2,"JetMET[0,1]"
+HLT_PFMETNoMu120_PFMHTNoMu120_IDTight,363,27.2,27.2,"JetMET[0,1]"
+HLT_PFMETNoMu120_PFMHTNoMu120_IDTight_FilterHF,363,27.2,27.2,"JetMET[0,1]"
+HLT_PFMET120_PFMHT120_IDTight_PFHT60,362,27.2,27.2,"JetMET[0,1]"
+HLT_PFMET120_PFMHT120_IDTight,362,27.2,27.2,"JetMET[0,1]"
+HLT_HT360_DisplacedDijet40_Inclusive1PtrkShortSig5,356,2.6,2.6,ParkingLLP
+HLT_VBF_DiPFJet45_Mjj500_Detajj2p5_MediumDeepTauPFTauHPS45_L2NN_eta2p1,347,21.0,21.0,ParkingVBF[0-7]
+HLT_AK8PFJet230_SoftDropMass40_PNetBB0p06,333,21.0,21.0,"JetMET[0,1]"
+HLT_PFHT500_PFMET110_PFMHT110_IDTight,333,27.2,27.2,"JetMET[0,1]"
+HLT_AK8PFJet275_SoftDropMass40_PNetTauTau0p03,329,21.0,21.0,"JetMET[0,1]"
+HLT_AK8PFJet400,327,27.2,1.7,"JetMET[0,1]"
+HLT_PFHT780,323,27.2,0.85,"JetMET[0,1]"
+HLT_AK8PFJet275_SoftDropMass40_PNetTauTau0p05,322,21.0,21.0,"JetMET[0,1]"
+HLT_PFMETNoMu130_PFMHTNoMu130_IDTight,310,27.2,27.2,"JetMET[0,1]"
+HLT_PFMET130_PFMHT130_IDTight,310,27.2,27.2,"JetMET[0,1]"
+HLT_PFMETNoMu130_PFMHTNoMu130_IDTight_FilterHF,309,27.2,27.2,"JetMET[0,1]"
+HLT_AK8PFJet250_SoftDropMass40_PNetBB0p06,308,21.0,21.0,"JetMET[0,1]"
+HLT_DiJet110_35_Mjj650_PFMET110,308,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_HT390_DisplacedDijet40_Inclusive1PtrkShortSig5,296,2.6,2.6,ParkingLLP
+HLT_AK8PFJet230_SoftDropMass40_PNetBB0p10,290,21.0,21.0,"JetMET[0,1]"
+HLT_HT360_DisplacedDijet45_Inclusive1PtrkShortSig5,286,2.6,2.6,ParkingLLP
+HLT_DiJet110_35_Mjj650_PFMET120,281,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_PFMETTypeOne140_PFMHT140_IDTight,271,27.2,27.2,"JetMET[0,1]"
+HLT_AK8PFJet250_SoftDropMass40_PNetBB0p10,269,21.0,21.0,"JetMET[0,1]"
+HLT_PFJet400,268,27.2,1.7,"JetMET[0,1]"
+HLT_AK8PFJet275_SoftDropMass40_PNetBB0p06,262,21.0,21.0,"JetMET[0,1]"
+HLT_PFHT700_PFMET85_PFMHT85_IDTight,260,27.2,27.2,"JetMET[0,1]"
+HLT_PFMETNoMu140_PFMHTNoMu140_IDTight,254,27.2,27.2,"JetMET[0,1]"
+HLT_PFMETNoMu140_PFMHTNoMu140_IDTight_FilterHF,253,27.2,27.2,"JetMET[0,1]"
+HLT_PFMET140_PFMHT140_IDTight,253,27.2,27.2,"JetMET[0,1]"
+HLT_HT430_DisplacedDijet40_Inclusive1PtrkShortSig5,250,27.2,27.2,"DisplacedJet, ParkingLLP"
+HLT_AK8PFJet420_MassSD30,248,27.2,27.2,"JetMET[0,1]"
+HLT_VBF_DiPFJet105_40_Mjj1000_Detajj3p5,246,20.8,20.8,ParkingVBF[0-7]
+HLT_HT390eta2p0_DisplacedDijet40_Inclusive1PtrkShortSig5,245,21.0,21.0,ParkingLLP
+HLT_DiPFJetAve320,243,27.2,0.77,"JetMET[0,1]"
+HLT_DiJet110_35_Mjj650_PFMET130,240,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_HT390_DisplacedDijet45_Inclusive1PtrkShortSig5,238,21.0,21.0,ParkingLLP
+HLT_VBF_DiPFJet110_40_Mjj1000_Detajj3p5,238,9.5,9.5,ParkingVBF[0-7]
+HLT_PFHT400_SixPFJet32,231,27.2,0.42,"JetMET[0,1], ParkingHH"
+HLT_AK8PFJet275_SoftDropMass40_PNetBB0p10,229,21.0,21.0,"JetMET[0,1]"
+HLT_LooseDeepTauPFTauHPS180_L2NN_eta2p1,216,27.2,27.2,Tau
+HLT_VBF_DiPFJet75_40_Mjj500_Detajj2p5_PFMET85,216,21.0,21.0,ParkingVBF[0-7]
+HLT_AK8PFJet450,214,27.2,3.4,"JetMET[0,1]"
+HLT_AK8PFJet450_MassSD30,200,27.2,27.2,"JetMET[0,1]"
+HLT_PFHT800_PFMET75_PFMHT75_IDTight,200,27.2,27.2,"JetMET[0,1]"
+HLT_VBF_DiPFJet80_45_Mjj500_Detajj2p5_PFMET85,197,9.5,9.5,ParkingVBF[0-7]
+HLT_PFHT280_QuadPFJet30_PNet2BTagMean0p55,192,21.0,21.0,ParkingHH
+HLT_PFHT890,191,27.2,1.7,"JetMET[0,1]"
+HLT_VBF_DiPFJet125_45_Mjj1000_Detajj3p5,181,9.5,9.5,ParkingVBF[0-7]
+HLT_AK8PFJet470_MassSD30,180,27.2,27.2,"JetMET[0,1]"
+HLT_PFJet450,180,27.2,3.4,"JetMET[0,1]"
+HLT_HT550_DisplacedDijet60_Inclusive,173,27.2,1.7,DisplacedJet
+HLT_DoublePFJets40_Mass500_MediumDeepTauPFTauHPS45_L2NN_MediumDeepTauPFTauHPS20_eta2p1,170,27.2,27.2,"ParkingVBF[0-7], Tau"
+HLT_AK8PFJet500,152,27.2,27.2,"JetMET[0,1]"
+HLT_AK8DiPFJet270_270_MassSD30,152,27.2,27.2,"JetMET[0,1]"
+HLT_PFHT450_SixPFJet36,146,27.2,1.1,"JetMET[0,1], ParkingHH"
+HLT_AK8PFJet500_MassSD30,146,27.2,27.2,"JetMET[0,1]"
+HLT_AK8DiPFJet250_250_MassSD50,141,27.2,27.2,"JetMET[0,1]"
+HLT_BTagMu_AK4DiJet110_Mu5,140,27.2,1.0,BTagMu
+HLT_AK8DiPFJet280_280_MassSD30,133,27.2,27.2,"JetMET[0,1]"
+HLT_QuadPFJet100_88_70_30_PNet1CvsAll0p5_VBF3Tight,133,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_AK8PFJet425_SoftDropMass40,133,27.2,27.2,"JetMET[0,1]"
+HLT_HT430_DelayedJet40_SingleDelay1To1p5nsInclusive,132,3.4,3.4,ParkingLLP
+HLT_AK8DiPFJet260_260_MassSD50,132,27.2,27.2,"JetMET[0,1]"
+HLT_PFHT280_QuadPFJet30_PNet2BTagMean0p60,130,21.0,21.0,ParkingHH
+HLT_CaloJet500_NoJetID,124,27.2,27.2,"JetMET[0,1]"
+HLT_AK8DiPFJet290_290_MassSD30,123,27.2,27.2,"JetMET[0,1]"
+HLT_PFJet500,120,27.2,27.2,"JetMET[0,1]"
+HLT_QuadPFJet105_88_75_30_PNet1CvsAll0p5_VBF3Tight,115,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_DoubleMediumDeepTauPFTauHPS30_L2NN_eta2p1_OneProng_M5to80,114,27.2,27.2,Tau
+HLT_HT650_DisplacedDijet60_Inclusive,113,27.2,27.2,"DisplacedJet, ParkingLLP"
+HLT_AK8PFJet450_SoftDropMass40,113,27.2,27.2,"JetMET[0,1]"
+HLT_HT430_DelayedJet40_SingleDelay1p1To1p6nsInclusive,113,3.4,3.4,ParkingLLP
+HLT_PFHT280_QuadPFJet35_PNet2BTagMean0p60,113,21.0,21.0,ParkingHH
+HLT_VBF_DoubleMediumDeepTauPFTauHPS20_eta2p1,108,27.2,27.2,"ParkingVBF[0-7], Tau"
+HLT_PFMET200_NotCleaned,107,27.2,1.7,"JetMET[0,1]"
+HLT_DiPFJetAve400,106,27.2,2.3,"JetMET[0,1]"
+HLT_AK8PFJet550,105,27.2,27.2,"JetMET[0,1]"
+HLT_PFHT1050,104,27.2,27.2,"JetMET[0,1]"
+HLT_PFHT400_FivePFJet_100_100_60_30_30_DoublePFBTagDeepJet_4p5,93,27.2,27.2,"JetMET[0,1], ParkingHH"
+HLT_BTagMu_AK8DiJet170_Mu5,93,27.2,2.3,BTagMu
+HLT_QuadPFJet111_90_80_30_PNet1CvsAll0p6_VBF3Tight,88,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_CaloJet550_NoJetID,84,27.2,27.2,"JetMET[0,1]"
+HLT_PFJet550,80,27.2,27.2,"JetMET[0,1]"
+HLT_QuadPFJet103_88_75_15_DoublePFBTagDeepJet_1p3_7p7_VBF1,76,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_QuadPFJet105_88_76_15_DoublePFBTagDeepJet_1p3_7p7_VBF1,75,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_DoubleMediumChargedIsoDisplacedPFTauHPS32_Trk1_eta2p1,74,27.2,27.2,Tau
+HLT_PFHT400_FivePFJet_120_120_60_30_30_DoublePFBTagDeepJet_4p5,73,27.2,27.2,"JetMET[0,1], ParkingHH"
+HLT_DiPFJetAve160_HFJEC,68,27.2,0.6,"JetMET[0,1]"
+HLT_HT430_DelayedJet40_SingleDelay1p25To1p75nsInclusive,67,21.0,21.0,ParkingLLP
+HLT_QuadPFJet111_90_80_15_DoublePFBTagDeepJet_1p3_7p7_VBF1,66,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_BTagMu_AK4DiJet170_Mu5,65,27.2,4.5,BTagMu
+HLT_BTagMu_AK8Jet300_Mu5,63,27.2,13.6,BTagMu
+HLT_PFHT450_SixPFJet36_PNetBTag0p35,63,9.5,9.5,ParkingHH
+HLT_PFHT450_SixPFJet36_PFBTagDeepJet_1p59,59,17.6,17.6,"JetMET[0,1], ParkingHH"
+HLT_VBF_DiPFJet125_45_Mjj720_Detajj3p0_TriplePFJet,57,1.7,1.7,ParkingVBF[0-7]
+HLT_AK8PFJetFwd200,57,27.2,0.6,"JetMET[0,1]"
+HLT_HT400_DisplacedDijet40_DisplacedTrack,54,27.2,6.8,DisplacedJet
+HLT_DiPFJetAve500,52,27.2,9.2,"JetMET[0,1]"
+HLT_PFMET250_NotCleaned,52,27.2,27.2,"JetMET[0,1]"
+HLT_AK8PFJet220_SoftDropMass40_PNetBB0p06_DoubleAK4PFJet60_30_PNet2BTagMean0p50,50,21.0,21.0,"JetMET[0,1]"
+HLT_PFJetFwd200,49,27.2,0.6,"JetMET[0,1]"
+HLT_HT430_DelayedJet40_SingleDelay1nsTrackless,49,27.2,27.2,DisplacedJet
+HLT_DoublePFJets200_PFBTagDeepJet_p71,48,27.2,0.39,"JetMET[0,1]"
+HLT_HT430_DisplacedDijet40_DisplacedTrack,47,27.2,27.2,"DisplacedJet, ParkingLLP"
+HLT_BTagMu_AK4Jet300_Mu5,45,27.2,27.2,BTagMu
+HLT_Mu3er1p5_PFJet100er2p5_PFMET90_PFMHT90_IDTight,44,27.2,27.2,"Muon[0,1]"
+HLT_PFHT330PT30_QuadPFJet_75_60_45_40_TriplePFBTagDeepJet_4p5,42,27.2,27.2,"JetMET[0,1], ParkingHH"
+HLT_PFHT400_SixPFJet32_DoublePFBTagDeepJet_2p94,41,17.6,17.6,"JetMET[0,1], ParkingHH"
+HLT_PFHT340_QuadPFJet70_50_40_40_PNet2BTagMean0p70,39,27.2,27.2,"JetMET[0,1], ParkingHH"
+HLT_HT350_DelayedJet40_SingleDelay1p75To3p5nsInclusive,38,9.5,9.5,ParkingLLP
+HLT_AK8PFJet220_SoftDropMass40_PNetBB0p06_DoubleAK4PFJet60_30_PNet2BTagMean0p53,38,21.0,21.0,"JetMET[0,1]"
+HLT_Ele50_CaloIdVT_GsfTrkIdT_PFJet165,37,27.2,27.2,"EGamma[0,1]"
+HLT_HT430_DelayedJet40_DoubleDelay0p5nsTrackless,37,27.2,27.2,DisplacedJet
+HLT_PFHT400_SixPFJet32_PNet2BTagMean0p50,36,9.5,9.5,ParkingHH
+HLT_VBF_DiPFJet110_40_Mjj1000_Detajj3p5_TriplePFJet,36,9.5,9.5,ParkingVBF[0-7]
+HLT_VBF_DiPFJet105_40_Mjj1000_Detajj3p5_TriplePFJet,36,20.8,20.8,ParkingVBF[0-7]
+HLT_HT200_L1SingleLLPJet_DisplacedDijet35_Inclusive1PtrkShortSig5,34,6.2,6.1,DisplacedJet
+HLT_Mu3er1p5_PFJet100er2p5_PFMET100_PFMHT100_IDTight,34,27.2,27.2,"Muon[0,1]"
+HLT_AK8PFJet220_SoftDropMass40_PNetBB0p06_DoubleAK4PFJet60_30_PNet2BTagMean0p55,33,21.0,21.0,"JetMET[0,1]"
+HLT_Mu3er1p5_PFJet100er2p5_PFMETNoMu100_PFMHTNoMu100_IDTight,32,27.2,27.2,"Muon[0,1]"
+HLT_VBF_DiPFJet90_40_Mjj600_Detajj2p5_Mu3_TrkIsoVVL,31,21.0,21.0,ParkingVBF[0-7]
+HLT_CaloMET60_DTCluster50,31,27.2,0.54,DisplacedJet
+HLT_QuadPFJet105_88_76_15_PFBTagDeepJet_1p3_VBF2,29,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_QuadPFJet103_88_75_15_PFBTagDeepJet_1p3_VBF2,29,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_AK8PFJet220_SoftDropMass40_PNetBB0p06_DoubleAK4PFJet60_30_PNet2BTagMean0p60,27,21.0,21.0,"JetMET[0,1]"
+HLT_DoubleEle4_eta1p22_mMax6,27,2.8,2.8,ParkingDoubleElectronLowMass
+HLT_VBF_DiPFJet125_45_Mjj1000_Detajj3p5_TriplePFJet,26,9.5,9.5,ParkingVBF[0-7]
+HLT_HT200_L1SingleLLPJet_DisplacedDijet40_Inclusive1PtrkShortSig5,26,27.2,27.2,DisplacedJet
+HLT_PFMET300_NotCleaned,26,27.2,27.2,"JetMET[0,1]"
+HLT_HT430_DelayedJet40_SingleDelay1p25nsTrackless,26,9.5,9.5,DisplacedJet
+HLT_Ele115_CaloIdVT_GsfTrkIdT,26,27.2,27.2,"EGamma[0,1]"
+HLT_VBF_DiPFJet95_45_Mjj600_Detajj2p5_Mu3_TrkIsoVVL,25,9.5,9.5,ParkingVBF[0-7]
+HLT_DoubleEle4p5_eta1p22_mMax6,23,5.9,5.9,ParkingDoubleElectronLowMass
+HLT_Diphoton30_22_R9Id_OR_IsoCaloId_AND_HE_R9Id_Mass90,21,27.2,27.2,"EGamma[0,1]"
+HLT_HT320_L1SingleLLPJet_DisplacedDijet60_Inclusive,21,27.2,27.2,DisplacedJet
+HLT_Ele30_WPTight_Gsf,21,27.2,27.2,"EGamma[0,1]"
+HLT_QuadPFJet111_90_80_15_PFBTagDeepJet_1p3_VBF2,21,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_Diphoton30_22_R9Id_OR_IsoCaloId_AND_HE_R9Id_Mass95,21,27.2,27.2,"EGamma[0,1]"
+HLT_DoubleEle5_eta1p22_mMax6,20,12.7,12.6,ParkingDoubleElectronLowMass
+HLT_Ele135_CaloIdVT_GsfTrkIdT,20,27.2,27.2,"EGamma[0,1]"
+HLT_HT240_L1SingleLLPJet_DisplacedDijet40_Inclusive1PtrkShortSig5,20,27.2,27.2,DisplacedJet
+HLT_HT280_L1SingleLLPJet_DisplacedDijet40_Inclusive1PtrkShortSig5,19,27.2,27.2,DisplacedJet
+HLT_DoubleEle4_eta1p22_mMax6_trkHits10,19,2.5,2.5,ParkingDoubleElectronLowMass
+HLT_L1Tau_DelayedJet40_DoubleDelay1nsTrackless,19,27.2,17.8,DisplacedJet
+HLT_Ele32_WPTight_Gsf,18,27.2,27.2,"EGamma[0,1]"
+HLT_Ele50_CaloIdVT_GsfTrkIdT_AK8PFJet220_SoftDropMass40,18,27.2,27.2,"EGamma[0,1]"
+HLT_Ele32_WPTight_Gsf_L1DoubleEG,18,27.2,27.2,"EGamma[0,1]"
+HLT_Ele50_CaloIdVT_GsfTrkIdT_AK8PFJet230_SoftDropMass40,17,27.2,27.2,"EGamma[0,1]"
+HLT_AK8PFJetFwd260,16,27.2,3.4,"JetMET[0,1]"
+HLT_DoubleEle4p5_eta1p22_mMax6_trkHits10,16,5.2,5.2,ParkingDoubleElectronLowMass
+HLT_HT430_DelayedJet40_SingleDelay1p5nsTrackless,15,9.5,9.5,DisplacedJet
+HLT_DiPFJetAve220_HFJEC,15,27.2,4.6,"JetMET[0,1]"
+HLT_DoubleEle5p5_eta1p22_mMax6,14,14.0,14.0,ParkingDoubleElectronLowMass
+HLT_Ele35_WPTight_Gsf,14,27.2,27.2,"EGamma[0,1]"
+HLT_Ele30_eta2p1_WPTight_Gsf_CentralPFJet35_EleCleaned,14,27.2,27.2,"EGamma[0,1]"
+HLT_DoublePFJets350_PFBTagDeepJet_p71,13,27.2,3.9,"JetMET[0,1]"
+HLT_CaloMET350_NotCleaned,13,27.2,27.2,"JetMET[0,1]"
+HLT_DoubleEle5_eta1p22_mMax6_trkHits10,13,11.0,11.0,ParkingDoubleElectronLowMass
+HLT_Mu6HT240_DisplacedDijet30_Inclusive1PtrkShortSig5_DisplacedLoose,13,27.2,27.2,DisplacedJet
+HLT_HT430_DelayedJet40_SingleDelay2nsInclusive,12,27.2,27.2,DisplacedJet
+HLT_DoubleEle6_eta1p22_mMax6,12,15.3,15.3,ParkingDoubleElectronLowMass
+HLT_DoubleEle4_eta1p22_mMax6_dz0p8,12,5.0,5.0,ParkingDoubleElectronLowMass
+HLT_Ele38_WPTight_Gsf,12,27.2,27.2,"EGamma[0,1]"
+HLT_Ele40_WPTight_Gsf,12,27.2,27.2,"EGamma[0,1]"
+HLT_DoubleMu4_3_LowMass,12,27.2,27.2,ParkingDoubleMuonLowMass[0-7]
+HLT_HT420_L1SingleLLPJet_DisplacedDijet60_Inclusive,12,27.2,27.2,DisplacedJet
+HLT_ECALHT800,12,27.2,27.2,"EGamma[0,1]"
+HLT_L1Tau_DelayedJet40_DoubleDelay1p25nsInclusive,12,27.2,17.8,DisplacedJet
+HLT_DoubleEle4p5_eta1p22_mMax6_dz0p8,11,8.6,8.6,ParkingDoubleElectronLowMass
+HLT_TripleJet110_35_35_Mjj650_PFMET120,11,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_TripleJet110_35_35_Mjj650_PFMET110,11,27.2,27.2,"JetMET[0,1], ParkingVBF[0-7]"
+HLT_L1Tau_DelayedJet40_SingleDelay2p75To4nsInclusive,11,9.2,9.2,ParkingLLP
+HLT_Mu6HT240_DisplacedDijet35_Inclusive0PtrkShortSig5,11,27.2,27.2,DisplacedJet
