@@ -98,18 +98,20 @@ class MyProcessor(processor.ProcessorABC):
         def contains_any_char(s, chars):
             return any(char in s for char in chars)
 
-        with open('trigger_eff_14_AK8Trigger.csv',mode='w', newline='') as file:
+        with open('scouting_VBFdata_trigger_eff_14.csv',mode='w', newline='') as file:
             writer = csv.writer(file)
             for branch_name in events.fields:
-                if (branch_name).startswith('HLT'):
+                if (branch_name).startswith('DST'):
+                #if (branch_name).startswith('HLT'):
                     #remove_branch = ['Prescl','ZeroBias','Physics','Calibration','Random','Hcal','Beam']
-                    remove_branch = ['Prescl','Photon','ZeroBias','Physics','Calibration','Random','Hcal','Beam']
+                    #remove_branch = ['Prescl','Photon','ZeroBias','Physics','Calibration','Random','Hcal','Beam']
+                    remove_branch = ['Prescl']
                     #keep_branch = ['HLT_PFHT280_QuadPFJet','DoubleMediumDeepTauPFTau']
                     keep_branch = ['HLT_AK8PFJet400_MassSD30']
 
                     #if 'HLT' in branch_name and 'Jet' in branch_name and not contains_any_char(branch_name,remove_branch):
-                    if contains_any_char(branch_name,keep_branch):
-                    #if not contains_any_char(branch_name,remove_branch):
+                    #if contains_any_char(branch_name,keep_branch):
+                    if not contains_any_char(branch_name,remove_branch):
                         count+=1
                         #if count==10:
                         #    break
@@ -186,11 +188,15 @@ def makeFileSet(path):
 # fileset = {dataset:{"files":makeFileSet(path)} for dataset,path in paths.items()}
 
 #commonPath = "/eos/cms/store/group/phys_diffraction/rchudasa/MCGeneration/HToAATo4Tau_hadronic_tauDecay_M3p7_Run3_2023/3p7_nanoAODSIM_hadronic/241001_054550/0000/"
-commonPath = "/eos/cms/store/group/phys_diffraction/rchudasa/MCGeneration/HToAATo4Tau_hadronic_tauDecay_M14_Run3_2023/14_nanoAODSIM_hadronic/241001_054627/0000/"
+#commonPath = "/eos/cms/store/group/phys_diffraction/rchudasa/MCGeneration/HToAATo4Tau_hadronic_tauDecay_M14_Run3_2023/14_nanoAODSIM_hadronic/241001_054627/0000/"
+
+commonPath = "/eos/uscms/store/group/lpcml/rchudasa/MCGenerationRun3/"
 
 fileset = {
     #"3p7": {"files": {commonPath+"nanoAOD_3p7.root":"Events"}},
-    "14" : {"files": {commonPath+"nanoAOD_14.root":"Events"}}
+    #"14" : {"files": {commonPath+"nanoAOD_14.root":"Events"}}
+    #"3p7": {"files": {commonPath+"NANOAOD_VBFH_HToAATo4Tau_M3p7_all.root":"Events"}},
+    "14" : {"files": {commonPath+"NANOAOD_VBFH_HToAATo4Tau_M14.root":"Events"}}
 }
 
 import time
