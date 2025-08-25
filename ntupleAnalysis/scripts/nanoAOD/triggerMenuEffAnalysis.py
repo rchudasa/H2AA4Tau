@@ -7,7 +7,7 @@ print(df.head())
 print("Trigger eff shape", df.shape)
 
 #df2 = pd.read_csv('E2Etau_signal_bkg_MC_HLT_2023_menu.csv',usecols=['Trigger_Name', 'Actual_lumi','Effective_lumi','dataset(s)'])
-df2 = pd.read_csv('csv_files/E2Etau_signal_bkg_MC_HLT_2023_menu.csv',usecols=['Trigger_Name', 'Actual_lumi','Effective_lumi','datasets'])
+df2 = pd.read_csv('csv_files/HLT_2023_menu.csv',usecols=['Trigger_Name', 'Actual_lumi','Effective_lumi','datasets'])
 print(df2.columns)
 
 print(df2.head())

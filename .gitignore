@@ -1,3 +1,5 @@
+ntupleAnalysis/outputs/
+ntupleAnalysis/outputs/*
 */__pycache__
 */figures*
 *.png

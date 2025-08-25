@@ -9,7 +9,6 @@ import os, glob
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import mplhep as hep
-from skimage.measure import block_reduce
 from numpy.lib.stride_tricks import as_strided
 plt.style.use([hep.style.ROOT, hep.style.firamath])
 from matplotlib.colors import LinearSegmentedColormap
@@ -31,7 +30,6 @@ from numpy.lib.stride_tricks import as_strided
 
 import argparse
 parser = argparse.ArgumentParser(description='Process some integers.')
-#parser.add_argument('-i', '--infile', default='/eos/uscms/store/group/lpcml/rchudasa/MCGenerationRun3/HToAATo4Tau_hadronic_tauDecay_M3p7_Run3_2023/3p7_MLAnalyzer_miniAOD_bigProductionRe/250430_020739/0000/output_565.root', type=str, help='Input root file.')
 parser.add_argument('-i', '--aodinfile', default='HAA4tau_M3p7_AODRH_numEvent10.root', type=str, help='Input AOD root file.')
 parser.add_argument('-r', '--rawinfile', default='HAA4tau_M3p7_RAWRH_all_numEvent10.root', type=str, help='Input RAW root file.')
 parser.add_argument('-o', '--outdir', default='figures', type=str, help='Output image file dir.')
@@ -62,7 +60,7 @@ def getHCALHits(inputFile, iEvt):
     HBHE_energy1D = np.array(rhTree['HBHE_energy'])[iEvt]
     jetPt = np.array(rhTree['jetPt'])[event_id]
     print("Jet pt:", jetPt, "iphi:", np.array(rhTree['jetSeed_iphi'])[event_id], "ieta:", np.array(rhTree['jetSeed_ieta'])[event_id])
-    print("Maximum BHE_energy:", HBHE_energy.max(), " minimum:", HBHE_energy.min())
+    print("Maximum HBHE_energy:", HBHE_energy.max(), " minimum:", HBHE_energy.min())
     return HBHE_energy, HBHE_energy1D, jetPt
 
 def plotImage(img, eve, pt, dataTier):
@@ -82,7 +80,7 @@ def plotImage(img, eve, pt, dataTier):
     plt.savefig(f"{out_dir}/onlyHCAL_image_event_{eve}_{dataTier}.pdf",facecolor='w',dpi=300,)
     plt.savefig(f"{out_dir}/onlyHCAL_image_event_{eve}_{dataTier}.png",facecolor='w',dpi=300,)
 
-    plt.show()
+    #plt.show()
 
 def ifOutlier(data, dataTier):
     Q1 = np.percentile(data, 25)
@@ -116,7 +114,7 @@ def compare1d(q1, q2, eve):
     plt.savefig(f"{out_dir}/HCAL_1d_{eve}.pdf",facecolor='w',dpi=300)
     plt.savefig(f"{out_dir}/HCAL_1d_{eve}.pdf",facecolor='w',dpi=300)
 
-    plt.show()
+    #plt.show()
 
 start =time.time()
 aodArray, aod1d, jetPtAOD = getHCALHits(args.aodinfile, event_id)
@@ -130,5 +128,3 @@ plotImage(aodArray, event_id, jetPtAOD, "AOD")
 plotImage(rawArray, event_id, jetPtRAW, "RAW")
 compare1d(aod1d, raw1d, event_id)
 print("Time taken:", stop-start)  
-
-
