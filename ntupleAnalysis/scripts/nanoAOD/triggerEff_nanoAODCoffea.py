@@ -187,16 +187,16 @@ def makeFileSet(path):
 
 # fileset = {dataset:{"files":makeFileSet(path)} for dataset,path in paths.items()}
 
-#commonPath = "/eos/cms/store/group/phys_diffraction/rchudasa/MCGeneration/HToAATo4Tau_hadronic_tauDecay_M3p7_Run3_2023/3p7_nanoAODSIM_hadronic/241001_054550/0000/"
-#commonPath = "/eos/cms/store/group/phys_diffraction/rchudasa/MCGeneration/HToAATo4Tau_hadronic_tauDecay_M14_Run3_2023/14_nanoAODSIM_hadronic/241001_054627/0000/"
+commonPath = "/eos/cms/store/group/phys_diffraction/rchudasa/MCGeneration/"
+commonPath = "/eos/cms/store/group/phys_diffraction/rchudasa/MCGeneration/"
 
-commonPath = "/eos/uscms/store/group/lpcml/rchudasa/MCGenerationRun3/"
+#commonPath = "/eos/uscms/store/group/lpcml/rchudasa/MCGenerationRun3/"
 
 fileset = {
-    #"3p7": {"files": {commonPath+"nanoAOD_3p7.root":"Events"}},
-    #"14" : {"files": {commonPath+"nanoAOD_14.root":"Events"}}
+    "3p7": {"files": {commonPath+"HToAATo4Tau_hadronic_tauDecay_M3p7_Run3_2023/3p7_nanoAODSIM_hadronic/241001_054550/0000/nanoAOD_3p7.root":"Events"}},
+    "14" : {"files": {commonPath+"HToAATo4Tau_hadronic_tauDecay_M14_Run3_2023/14_nanoAODSIM_hadronic/241001_054627/0000/nanoAOD_14.root":"Events"}}
     #"3p7": {"files": {commonPath+"NANOAOD_VBFH_HToAATo4Tau_M3p7_all.root":"Events"}},
-    "14" : {"files": {commonPath+"NANOAOD_VBFH_HToAATo4Tau_M14.root":"Events"}}
+    #"14" : {"files": {commonPath+"NANOAOD_VBFH_HToAATo4Tau_M14.root":"Events"}}
 }
 
 import time

@@ -1,0 +1,11 @@
+{
+    "QCD": {
+        "files": [
+            "root://cms-xrd-global.cern.ch//store/mc/Run3Summer23BPixNanoAODv12/QCD_PT-15to7000_TuneCP5_13p6TeV_pythia8/NANOAODSIM/KeepRAW_130X_mcRun3_2023_realistic_postBPix_v2-v2/2560000/659093b4-f452-4576-9559-bf307c9eab83.root"
+        ],
+        "metadata": {
+            "is_mc": true,
+            "xsec": 6077.22
+        }
+    }
+}

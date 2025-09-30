@@ -1,10 +1,15 @@
 import os
 import numpy as np
 import awkward as ak
-from coffea import processor, hist
+from coffea import processor
+import hist
+import dask
+import awkward as ak
+import hist.dask as hda
+import dask_awkward as dak
 from coffea.nanoevents import NanoEventsFactory, NanoAODSchema
 from coffea.analysis_tools import PackedSelection
-from TauPOG.TauIDSFs.TauIDSFTool import TauIDSFTool
+#from TauPOG.TauIDSFs.TauIDSFTool import TauIDSFTool
 import uproot
 from collections import OrderedDict
 import uuid
@@ -22,8 +27,8 @@ class HToAA4TauProcessor(processor.ProcessorABC):
         self.tau_vsjet_wp = "Medium"
         
         # TAU ID SCALE FACTORS
-        if self.ismc:
-            self.tauSFs = TauIDSFTool(f"20{year}", "DeepTau2017v2p1VSjet", self.tau_vsjet_wp, dm=True)
+        #if self.ismc:
+            #self.tauSFs = TauIDSFTool(f"20{year}", "DeepTau2017v2p1VSjet", self.tau_vsjet_wp, dm=True)
         
         # CUTFLOW
         self.cutflow = OrderedDict([
@@ -33,43 +38,49 @@ class HToAA4TauProcessor(processor.ProcessorABC):
             ("weight", "Weighted events (MC only)")
         ])
         
-        # HISTOGRAMS
-        self.pt_axis = hist.Bin("pt", r"$p_T$ [GeV]", 50, 0, 200)
-        self.eta_axis = hist.Bin("eta", r"$\eta$", 50, -2.5, 2.5)
-        self.phi_axis = hist.Bin("phi", r"$\phi$", 50, -np.pi, np.pi)
-        self.mass_axis = hist.Bin("mass", r"Mass [GeV]", 50, 0, 100)
-        self.dR_axis = hist.Bin("dR", r"$\Delta R$", 50, 0, 5)
-        self.fourtau_mass_axis = hist.Bin("fourtau_mass", r"$m_{4\tau}$ [GeV]", 50, 0, 500)
+        # HISTOGRAM AXES
+        self.pt_axis = hist.axis.Regular(50, 0, 200, name="pt", label=r"$p_T$ [GeV]")
+        self.eta_axis = hist.axis.Regular(50, -2.5, 2.5, name="eta", label=r"$\eta$")
+        self.phi_axis = hist.axis.Regular(50, -np.pi, np.pi, name="phi", label=r"$\phi$")
+        self.mass_axis = hist.axis.Regular(50, 0, 100, name="mass", label=r"Mass [GeV]")
+        self.dR_axis = hist.axis.Regular(50, 0, 5, name="dR", label=r"$\Delta R$")
+        self.fourtau_mass_axis = hist.axis.Regular(50, 0, 500, name="fourtau_mass", label=r"$m_{4\tau}$ [GeV]")
+        self.dataset_axis = hist.axis.StrCategory([], name="dataset", growth=True)
         
+        # HISTOGRAMS
         self.histos = {
-            "cutflow": hist.Hist("Events", hist.Cat("cut", "Selection"), hist.Bin("events", "Events", 1, 0, 1)),
-            "tau1_pt": hist.Hist("Tau1 pT", hist.Cat("dataset", "Dataset"), self.pt_axis),
-            "tau1_eta": hist.Hist("Tau1 eta", hist.Cat("dataset", "Dataset"), self.eta_axis),
-            "tau1_phi": hist.Hist("Tau1 phi", hist.Cat("dataset", "Dataset"), self.phi_axis),
-            "tau1_mass": hist.Hist("Tau1 mass", hist.Cat("dataset", "Dataset"), self.mass_axis),
-            "tau2_pt": hist.Hist("Tau2 pT", hist.Cat("dataset", "Dataset"), self.pt_axis),
-            "tau2_eta": hist.Hist("Tau2 eta", hist.Cat("dataset", "Dataset"), self.eta_axis),
-            "tau2_phi": hist.Hist("Tau2 phi", hist.Cat("dataset", "Dataset"), self.phi_axis),
-            "tau2_mass": hist.Hist("Tau2 mass", hist.Cat("dataset", "Dataset"), self.mass_axis),
-            "tau3_pt": hist.Hist("Tau3 pT", hist.Cat("dataset", "Dataset"), self.pt_axis),
-            "tau3_eta": hist.Hist("Tau3 eta", hist.Cat("dataset", "Dataset"), self.eta_axis),
-            "tau3_phi": hist.Hist("Tau3 phi", hist.Cat("dataset", "Dataset"), self.phi_axis),
-            "tau3_mass": hist.Hist("Tau3 mass", hist.Cat("dataset", "Dataset"), self.mass_axis),
-            "tau4_pt": hist.Hist("Tau4 pT", hist.Cat("dataset", "Dataset"), self.pt_axis),
-            "tau4_eta": hist.Hist("Tau4 eta", hist.Cat("dataset", "Dataset"), self.eta_axis),
-            "tau4_phi": hist.Hist("Tau4 phi", hist.Cat("dataset", "Dataset"), self.phi_axis),
-            "tau4_mass": hist.Hist("Tau4 mass", hist.Cat("dataset", "Dataset"), self.mass_axis),
-            "ditau1_mass": hist.Hist("Di-tau1 mass", hist.Cat("dataset", "Dataset"), self.mass_axis),
-            "ditau2_mass": hist.Hist("Di-tau2 mass", hist.Cat("dataset", "Dataset"), self.mass_axis),
-            "fourtau_mass": hist.Hist("Four-tau mass", hist.Cat("dataset", "Dataset"), self.fourtau_mass_axis),
-            "ditau1_dR": hist.Hist("Di-tau1 ΔR", hist.Cat("dataset", "Dataset"), self.dR_axis),
-            "ditau2_dR": hist.Hist("Di-tau2 ΔR", hist.Cat("dataset", "Dataset"), self.dR_axis),
+            "cutflow": hist.Hist(
+                hist.axis.StrCategory(self.cutflow.keys(), name="cut", label="Selection"),
+                hist.axis.Regular(1, 0, 1, name="events", label="Events"),
+                storage=hist.storage.Double()
+            ),
+            "tau1_pt": hist.Hist(self.dataset_axis, self.pt_axis, storage=hist.storage.Weight()),
+            "tau1_eta": hist.Hist(self.dataset_axis, self.eta_axis, storage=hist.storage.Weight()),
+            "tau1_phi": hist.Hist(self.dataset_axis, self.phi_axis, storage=hist.storage.Weight()),
+            "tau1_mass": hist.Hist(self.dataset_axis, self.mass_axis, storage=hist.storage.Weight()),
+            "tau2_pt": hist.Hist(self.dataset_axis, self.pt_axis, storage=hist.storage.Weight()),
+            "tau2_eta": hist.Hist(self.dataset_axis, self.eta_axis, storage=hist.storage.Weight()),
+            "tau2_phi": hist.Hist(self.dataset_axis, self.phi_axis, storage=hist.storage.Weight()),
+            "tau2_mass": hist.Hist(self.dataset_axis, self.mass_axis, storage=hist.storage.Weight()),
+            "tau3_pt": hist.Hist(self.dataset_axis, self.pt_axis, storage=hist.storage.Weight()),
+            "tau3_eta": hist.Hist(self.dataset_axis, self.eta_axis, storage=hist.storage.Weight()),
+            "tau3_phi": hist.Hist(self.dataset_axis, self.phi_axis, storage=hist.storage.Weight()),
+            "tau3_mass": hist.Hist(self.dataset_axis, self.mass_axis, storage=hist.storage.Weight()),
+            "tau4_pt": hist.Hist(self.dataset_axis, self.pt_axis, storage=hist.storage.Weight()),
+            "tau4_eta": hist.Hist(self.dataset_axis, self.eta_axis, storage=hist.storage.Weight()),
+            "tau4_phi": hist.Hist(self.dataset_axis, self.phi_axis, storage=hist.storage.Weight()),
+            "tau4_mass": hist.Hist(self.dataset_axis, self.mass_axis, storage=hist.storage.Weight()),
+            "ditau1_mass": hist.Hist(self.dataset_axis, self.mass_axis, storage=hist.storage.Weight()),
+            "ditau2_mass": hist.Hist(self.dataset_axis, self.mass_axis, storage=hist.storage.Weight()),
+            "fourtau_mass": hist.Hist(self.dataset_axis, self.fourtau_mass_axis, storage=hist.storage.Weight()),
+            "ditau1_dR": hist.Hist(self.dataset_axis, self.dR_axis, storage=hist.storage.Weight()),
+            "ditau2_dR": hist.Hist(self.dataset_axis, self.dR_axis, storage=hist.storage.Weight()),
         }
 
     def process(self, events):
         dataset = events.metadata["dataset"]
-        output = {k: hist.Hist.clone(v) for k, v in self.histos.items()}
-        
+        output = {k: h.copy() for k, h in self.histos.items()}       
+         
         # CUTFLOW: NO CUT
         output["cutflow"].fill(cut="none", events=np.ones(len(events)), dataset=dataset)
         
@@ -125,7 +136,8 @@ class HToAA4TauProcessor(processor.ProcessorABC):
         if self.ismc:
             weight = events.genWeight
             for tau in [tau1, tau2, tau3, tau4]:
-                tau_sf = self.tauSFs.getSFvsDM(tau.pt, tau.decayMode)
+                #tau_sf = self.tauSFs.getSFvsDM(tau.pt, tau.decayMode)
+                tau_sf = np.ones(len(tau))  # Placeholder for actual SF calculation
                 weight = weight * tau_sf
         else:
             weight = np.ones(len(events))
@@ -177,12 +189,15 @@ def main():
     args = parser.parse_args()
     
     # LOAD EVENTS
-    events = NanoEventsFactory.from_file(args.inputfile, schemaclass=NanoAODSchema).events()
+    events = NanoEventsFactory.from_root(
+        {args.inputfile: "Events"}, 
+        schemaclass=NanoAODSchema
+        ).events()
     
     # RUN PROCESSOR
     processor_instance = HToAA4TauProcessor(year=args.year, ismc=args.ismc)
     output = processor.run_uproot_job(
-        {args.inputfile: events},
+        {args.inputfile: "Events"},
         treename="Events",
         processor_instance=processor_instance,
         executor=processor.futures_executor,

@@ -6,3 +6,5 @@ ntupleAnalysis/outputs/*
 */*.png
 *.root
 */*.root
+output*
+output/*

@@ -1,0 +1,23 @@
+{
+    "Data": {
+        "files": [
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/70000/83788139-9176-4859-9ead-f1037ab3da96.root",
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/70000/53a9f614-3eac-4e01-a774-ebb9183279c2.root",
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/70000/67831075-a09b-49d3-bdd3-b3f09acd4184.root",
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/70000/17d86b4b-9bdb-4dea-a4c0-b09e47d2af23.root",
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/60000/ae42a776-23dc-4e03-83bd-bc95053e6601.root",
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/60000/dbd11840-61c5-45a2-bb70-f4dbdd633e25.root",
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/60000/cc2d8170-3662-4080-9431-cfe0b6465b6b.root",
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/70000/7c280eef-0741-49d8-b922-73db06004e71.root",
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/70000/3b6899ac-c85f-4eeb-bbf6-2231f73cb978.root",
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/70000/311fcb40-65b3-4c98-a73c-c474d8c0b7a4.root",
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/60000/1d3b06bb-2fc8-480f-a43a-aa195c02cb92.root",
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/70000/84041de3-9f48-49de-b97a-8ac99e80b583.root",
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/60000/c717fc1d-f329-4c45-9f26-63a3f26b7524.root",
+            "root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/60000/ab57c5b2-8b63-4f27-a75d-c5c0553e325f.root"
+        ],
+        "metadata": {
+            "is_mc": false
+        }
+    }
+}

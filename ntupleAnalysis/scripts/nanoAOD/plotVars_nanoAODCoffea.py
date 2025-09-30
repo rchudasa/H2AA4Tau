@@ -182,10 +182,10 @@ def makeFileSet(path):
 paths = {
     "HAA4Tau_3p7" : "/eos/cms/store/group/phys_diffraction/rchudasa/MCGeneration/HToAATo4Tau_hadronic_tauDecay_M3p7_Run3_2023/3p7_nanoAODSIM_hadronic/241001_054550/0000/",
     "HAA4Tau_14" : "/eos/cms/store/group/phys_diffraction/rchudasa/MCGeneration/HToAATo4Tau_hadronic_tauDecay_M14_Run3_2023/14_nanoAODSIM_hadronic/241001_054627/0000/",
-    "QCD" : "/eos/cms/store/group/phys_diffraction/rchudasa/Run3Summer23NanoAODv12/QCD_PT-15to7000_TuneCP5_13p6TeV_pythia8/NANOAODSIM/castor_130X_mcRun3_2023_realistic_v14-v1/2560000/",
-    "DYLL" :"/eos/cms/store/group/phys_diffraction/rchudasa/Run3Summer23BPixNanoAODv12/DYto2L_M-50_TuneCP5_13p6TeV_pythia8/NANOAODSIM/KeepSi_130X_mcRun3_2023_realistic_postBPix_v2-v3/2560000/",
-    "WJets":"/eos/cms/store/mc/Run3Summer23BPixNanoAODv12/WtoLNu-2Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v6-v2/2530000/",
-    "HTauTau":"/eos/cms/store/group/phys_diffraction/rchudasa/Run3Summer23BPixNanoAODv12/GluGluHToTauTau_M-125_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v2/2560000/"
+    # "QCD" : "/eos/cms/store/group/phys_diffraction/rchudasa/Run3Summer23NanoAODv12/QCD_PT-15to7000_TuneCP5_13p6TeV_pythia8/NANOAODSIM/castor_130X_mcRun3_2023_realistic_v14-v1/2560000/",
+    # "DYLL" :"/eos/cms/store/group/phys_diffraction/rchudasa/Run3Summer23BPixNanoAODv12/DYto2L_M-50_TuneCP5_13p6TeV_pythia8/NANOAODSIM/KeepSi_130X_mcRun3_2023_realistic_postBPix_v2-v3/2560000/",
+    # "WJets":"/eos/cms/store/mc/Run3Summer23BPixNanoAODv12/WtoLNu-2Jets_TuneCP5_13p6TeV_amcatnloFXFX-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v6-v2/2530000/",
+    # "HTauTau":"/eos/cms/store/group/phys_diffraction/rchudasa/Run3Summer23BPixNanoAODv12/GluGluHToTauTau_M-125_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_postBPix_v2-v2/2560000/"
 }
 
 fileset = {dataset:{"files":makeFileSet(path)} for dataset,path in paths.items()}
