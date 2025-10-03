@@ -1,6 +1,7 @@
 ntupleAnalysis/outputs/
 ntupleAnalysis/outputs/*
 */__pycache__
+*/*/__pycache__
 */figures*
 *.png
 */*.png
@@ -8,3 +9,4 @@ ntupleAnalysis/outputs/*
 */*.root
 output*
 output/*
+condor/
