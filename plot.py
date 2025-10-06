@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from hist import Hist
 
 # Load the saved histograms from .coffea file
-input_file = 'output/histos_v1.coffea'
+input_file = 'output/histos_dask.coffea'
 result = coffea.util.load(input_file)
 
 # List of datasets (must match those in run_analysis.py)
