@@ -101,22 +101,22 @@ import uproot
 import coffea.processor as processor
 
 
-# Define the fileset
 fileset = {
-    'QCD': ["root://cms-xrd-global.cern.ch//store/mc/Run3Summer23BPixNanoAODv12/QCD_PT-15to7000_TuneCP5_13p6TeV_pythia8/NANOAODSIM/KeepRAW_130X_mcRun3_2023_realistic_postBPix_v2-v2/2560000/659093b4-f452-4576-9559-bf307c9eab83.root"
-    ],
-    'Data': ["root://cms-xrd-global.cern.ch//store/data/Run2023C/Tau/NANOAOD/PromptNanoAODv12_v3-v1/70000/83788139-9176-4859-9ead-f1037ab3da96.root"
-    ]
+    #'QCD': ["root://xrootd-cms.infn.it//store/mc/Run3Summer23NanoAODv12/QCD_PT-15to7000_TuneCP5_Flat2022_13p6TeV_pythia8/NANOAODSIM/130X_mcRun3_2023_realistic_v15-v3/2830000/18d50e3a-5e8a-4870-80d6-f11b8dcd3dd5.root"
+    'H2AA4Tau14': ['root://xrootd-cms.infn.it//store/group/phys_diffraction/rchudasa/MCGeneration/HToAATo4Tau_hadronic_tauDecay_M14_Run3_2023/14_nanoAODSIM_hadronic/241001_054627/0000/nanoAOD_14.root'],
+    'QCD': ["inputNanoAODTest/QCD_18d50e3a-5e8a-4870-80d6-f11b8dcd3dd5.root"],
+    #'Data': ["root://xrootd-cms.infn.it//store/data/Run2023C/Tau/NANOAOD/22Sep2023_v1-v2/2560000/99612f9d-18b2-4402-b7a9-8127b7398a62.root"]
+    'Data': ["inputNanoAODTest/data_99612f9d-18b2-4402-b7a9-8127b7398a62.root"]
 }
 
 # Configure the executor
-executor = processor.FuturesExecutor(workers=4)
+executor = processor.FuturesExecutor(workers=1)
 
 # Set up the runner
 runner = processor.Runner(
     executor=executor,
     schema=NanoAODSchema,
-    chunksize=100000,  # Number of events per chunk
+    chunksize=500000,  # Number of events per chunk
     maxchunks=None  # Process all chunks; set a number to limit
 )
 
@@ -124,7 +124,7 @@ runner = processor.Runner(
 result = runner(
     fileset,
     treename='Events',
-    processor_instance=FourTauProcessor(year="2023")
+    processor_instance=FourTauProcessor(pd="Tau")
 )
 
 # Save or inspect the output
